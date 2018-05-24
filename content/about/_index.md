@@ -14,6 +14,8 @@ I have experience with C++, Rust (_incumbent_) and Python (_incumbent_) as well 
 
 I am hoping to be a delusional person and start a company which provides some service I have not yet conceived of.
 
+Oh, I'm going to be unnecessarily blunt because I'm normally very not blunt.
+
 Thank you, and hopefully I _see_ :eye: you around my site.
 
 [Resume & Cover Letter](#)

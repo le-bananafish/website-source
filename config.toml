@@ -7,8 +7,7 @@ pygmentsCodefences      = true
 # googleAnalytics       = "xxx"             # Tracking code, eg. "UA-111111111-1"
 
 # build options
-buildFuture             = true # builds future dated posts
-buildDrafts             = true # builds drafts
+buildDrafts             = false # builds drafts
 enableEmoji             = true # enables the use of emoji codes
 publishDir              = "sebastianlau"
 

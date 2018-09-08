@@ -17,6 +17,6 @@ Oh, I'm going to be unnecessarily blunt because I'm normally very not blunt.
 
 Thank you, and hopefully I _see_ :eye: you around my site.
 
-[Resume](/docs/2018-08-16-resume-general.pdf)
+[Resume](/docs/2018-09-08-resume-general.pdf)
 
 > Why change something that's not broken? _Because I want to_, and __not__ _broken_ is boring.

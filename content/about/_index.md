@@ -9,13 +9,13 @@ My name is Sebastian Lau.
 
 I am currently studying Computer Science and Linguistics at the University of Auckland.
 
-I have experience with C++, Rust (_incumbent_) and Python (_incumbent_) as well as some experience with Jekyll and Hugo.
+I have some experience with C++, Rust and Python (curriculum) and have dabbled with languages like Haskell to static site generators like Jekyll and Hugo, the latter with which this site was built.
 
-I am hoping to be a delusional person and start a company which provides some service I have not yet conceived of.
+I have aspirations to start up a company with a scope that I have not yet determined but which I believe has great potential.
 
-Oh, I'm going to be unnecessarily blunt because I'm normally very not blunt.
+And finally, because I am normally more reserved and tend to keep opinions and considerations to myself, I've decided to be unncessarily blunt with this blog but not too much.
 
-Thank you, and hopefully I _see_ :eye: you around my site.
+Thank you and hopefully I _see_ :eye: you around my site.
 
 [Resume](/docs/2018-09-08-resume-general.pdf)
 

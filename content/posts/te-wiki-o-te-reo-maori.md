@@ -3,7 +3,7 @@ title: "Te Wiki O Te Reo Māori"
 date: 2018-09-15T23:14:38+12:00
 showDate: true
 draft: false
-tags: ["thought", "random", "rant", "linguistics", "society"]
+tags: ["idea", "general", "story", "rant", "complaint", "linguistics", "society", "life"]
 ---
 
 # Māori Language Week

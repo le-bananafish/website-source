@@ -3,7 +3,7 @@ title: "Why I Use Fountain Pens"
 date: 2018-07-04T23:32:03+12:00
 showDate: true
 draft: false
-tags: ["general", "story", "fountainpens"]
+tags: ["general", "story", "fountainpens", "writing"]
 ---
 
 # The rationale behind the use of antiquated writing instruments

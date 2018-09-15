@@ -3,12 +3,12 @@ title: "Why I Use Fountain Pens"
 date: 2018-07-04T23:32:03+12:00
 showDate: true
 draft: false
-tags: ["general", "story", "fountainpens", "writing"]
+tags: ["general", "story", "fountainpens", "writing", "stationery"]
 ---
 
 # The rationale behind the use of antiquated writing instruments
 
-In an age of instantaneous interconnected digitial communication and storage, one might wonder why another has a desire to use antiquated communication methods such as the pen and paper, especially a _very antiquated breed of pen_ known only in the fringes of society and cautiously mentioned in everyday society as the fountain pen. If one looks at those proclaiming the dangers of technology and the benefits of digital detox, one will find a possible answer to the question at hand. If one looks at those who proclaim that old technologies are the best and conservatively strive to use only old methods, one will find another possible answer to the question at hand.
+In an age of instantaneous interconnected digital communication and storage, one might wonder why another has a desire to use antiquated communication methods such as the pen and paper, especially a _very antiquated breed of pen_ known only in the fringes of society and cautiously mentioned in everyday society as the fountain pen. If one looks at those proclaiming the dangers of technology and the benefits of digital detox, one will find a possible answer to the question at hand. If one looks at those who proclaim that old technologies are the best and conservatively strive to use only old methods, one will find another possible answer to the question at hand.
 
 However, _none_ of these are my answer.
 

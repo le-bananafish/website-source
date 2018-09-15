@@ -3,12 +3,12 @@ title: "Modernity Has Failed Us"
 date: 2018-08-08T21:50:30+12:00
 showDate: true
 draft: false
-tags: ["thought", "complaint", "music"]
+tags: ["showerthought", "complaint", "society", "music"]
 ---
 
 # A Brief Enquiry into Modern Society
 
-Last month, British band __The 1975__ released the second single from their upcoming album "_A Brief Inquiry Into Online Relationships_." Barring being a good song, the song also functions as a good criticism of society as the album title denotes. The best line in my subjective opinion is "_Oh! F*** your feelings! / Truth is only hearsay!_" which highlights a critical problem in modern society. 
+Last month, British band __The 1975__ released the second single from their upcoming album "_A Brief Inquiry Into Online Relationships_." Barring being a good song, the song also functions as a good criticism of society as the album title denotes. The best line in my subjective opinion is "_Oh! F*** your feelings! / Truth is only hearsay!_" which highlights a critical problem in modern society.
 
 We're so resistant to knowledge and information in an age full of information that we dismiss information that is potentially important as simply 'fake news' without as much as a thought. On the reverse side, we are also so enthusiastic about gaining attention that we propagate information from untrustworthy news sources and promote them whenever they help our argument.
 

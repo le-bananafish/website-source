@@ -2,7 +2,7 @@
 
 This repository is licensed under the following conditions. This does not include the `/themes/sam` or `/sebastianlau` folders which have their own terms.
 
-    Copyright [2018] [Sebastian Lau]
+    Copyright 2018 Sebastian Lau
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

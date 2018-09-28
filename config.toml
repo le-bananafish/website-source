@@ -25,6 +25,9 @@ publishDir              = "sebastianlau"
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
     primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
+    RelativeURLs=true
+    CanonifyURLs=true
+
 [[params.mainMenu]]
     link = "/posts"
     text = "thoughts"

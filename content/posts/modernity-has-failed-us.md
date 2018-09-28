@@ -3,7 +3,7 @@ title: "Modernity Has Failed Us"
 date: 2018-08-08T21:50:30+12:00
 showDate: true
 draft: false
-tags: ["showerthought", "complaint", "society", "music"]
+tags: ["shower-thought", "complaint", "society", "music"]
 ---
 
 # A Brief Enquiry into Modern Society

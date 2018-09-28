@@ -3,5 +3,5 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 showDate: true
 draft: true
-tags: ["showerthought", "idea", "random", "general", "story", "rant", "complaint", "fountainpens", "stationery", "newhorizons", "programming", "linguistics", "society", "writing", "creation", "review", "technology", "music", "rust", "university", "work", "inspirationalquotes", "project", "projectunnamed", "notebooks"]
+tags: ["complaint", "creative-work", "fountain-pens", "general", "linguistics", "music", "new-horizons", "notebooks", "programming", "project", "rant", "review", "rust", "shower-thought", "society", "stationery", "story", "tautangata", "technology", "university", "user-experience", "user-interface", "work", "writing"]
 ---

@@ -17,7 +17,7 @@ And finally, because I am normally reserved with my words and tend to keep opini
 
 Thank you and hopefully I <!-- _see_ --> :eye: you around my site.
 
-[Resume](/docs/2018-09-08-resume-general.pdf) <!-- && [Cover Letter]() -->
+[Resume](/docs/2019-01-23-resume-part-time.pdf) <!-- && [Cover Letter]() -->
 
 Social Links:
 

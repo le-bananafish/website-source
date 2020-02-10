@@ -3,26 +3,38 @@ title: "About"
 date: 2018-05-22T16:28:00+12:00
 ---
 
-Hi, It's me. Who the hell is this _<b>me</b>_ person being referred to?
+Hi, It's me. Who the hell is this ___me___ person being referred to?
 
 My name is Sebastian Lau.
 
 I am currently studying a conjoint degree in Computer Science and Linguistics at the University of Auckland.
 
-I write stories, aspire to start a technology company and occasionally take decent photographs. I am currently working on my worldbuilding project _New Horizons_, announcement [here](https://le-bananafish.github.io/posts/new-horizons/)", whilst my plans for a company are on hold.
+I write stories, intend to start a company and occasionally take decent photographs.
 
-I have experience with various programming languages such as: C++ through informatics, Rust as a hobby and Python as part of university courses. I have dabbled with static site generators such as Jekyll and Hugo, the latter with which this site was built; and other languages such as Haskell which intrigued but confused me.
+I am working on my worldbuilding project titled _New Horizons_. New Horizons is about the stories of individuals, their struggles and tribulations. It aims to capture the stories of life rather than stories as presented in television and film. See the [announcement](/posts/new-horizons).
 
-And finally, because I am normally reserved with my words and tend to keep opinions and considerations to myself, I've decided to be unnecessarily blunt with this blog (_not too much_) and it is very much stream-of-consciousness.
+My tentatively titled company _The Dreamers Club_ is currently on-hold. This is because I both lack the expertise required for many of my aspirations and am uncertain about how to launch the company. See its [mission](/posts/the-dreamers-club).
+
+<!-- To any interested party, I have experience with a few programming languages acquired through various activities. C++ was my first language and acquired through a high school club and participation in informatics. Although Rust has been a long-time interest, it has often been neglected in lieu of C, Python and Java which I am required to use for university courses. -->
+
+I should mention Jekyll and Hugo, two static site frameworks which I have used for my personal website. Jekyll was used for a previous version of this site whereas Hugo is currently powering this website.
+
+The purpose of this site is to share things that I consider personal and would normally not share, such as my stories, ideas, thoughts and hobbies as well as completely random things.
+
+As I am normally reserved with my words, I will be more open and direct with the content on this site, and it will often be in a stream of consciousness. However, you may notice when my itchy editing finger has meddled with the content.
 
 Thank you and hopefully I <!-- _see_ --> :eye: you around my site.
 
-[Resume](/docs/2019-01-23-resume-part-time.pdf) <!-- && [Cover Letter]() -->
+[Resume](#) is down temporarily.
+<!-- [Resume](/docs/2019-01-23-resume-part-time.pdf) && [Cover Letter]() -->
 
 Social Links:
 
+* [GitLab](https://gitlab.com/sebastianlau) projects are private.
 * [GitHub](https://github.com/le-bananafish)
 * [Instagram](https://instagram.com/sebastianlau25)
 * [Email](mailto:sebastianlau25@gmail.com)
+
+Inquiries are always welcome. Please _do not_ contact my _phone number_ unless you are an employer.
 
 > Why change something that isn't broken? _Because I want to_, and things that _aren't broken_ are __boring__.

@@ -18,6 +18,6 @@ This repository is licensed under the following conditions. This does not includ
 
 A copy of the Apache License 2.0 will be provided with this repository.
 
-The Sam theme is licensed under the Creative Commons Attribution 3.0 Unported license and is the work of Vicky Lai who __in no way endorses__ this repository.
+The Sam theme is licensed under the Apache License (presumably 2.0) and is the work of Victoria Drake who __is in no way associated with__ this repository.
 
-The `sebastianlau` folder is available for viewing but all post content and all media files, including but not limited to documents, images, sound files and video files, are © 2018 Sebastian Lau.
+The `sebastianlau` folder is _currently_ available for viewing but all post content and all media files, including but not limited to documents, images, sound files and video files, are © 2018 Sebastian Lau.

@@ -2,7 +2,7 @@
 title: "Modernity Has Failed Us"
 date: 2018-08-08T21:50:30+12:00
 showDate: true
-draft: false
+draft: true
 tags: ["shower-thought", "complaint", "society", "music"]
 ---
 

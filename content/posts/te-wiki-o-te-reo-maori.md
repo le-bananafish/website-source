@@ -2,7 +2,7 @@
 title: "Te Wiki O Te Reo Māori"
 date: 2018-09-15T23:14:38+12:00
 showDate: true
-draft: false
+draft: true
 tags: ["general", "rant", "complaint", "linguistics", "society"]
 ---
 

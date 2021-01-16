@@ -39,3 +39,7 @@ publishDir              = "sebastianlau"
 [[params.mainMenu]]
     link = "/about"
     text = "who is this random?"
+
+# [[params.mainMenu]]
+    # link = "/links"
+    # text = "links"

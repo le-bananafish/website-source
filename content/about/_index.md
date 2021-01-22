@@ -11,11 +11,15 @@ I am currently studying a conjoint degree in Computer Science and Linguistics at
 
 <!-- I write stories, intend to start a company and occasionally take decent photographs. -->
 
-I write stories, stream games and occassionally take decent photographs.
+<!-- I write stories, stream games and occasionally take decent photographs. -->
 
-I am working on my worldbuilding project titled _New Horizons_. New Horizons is about the stories of individuals, their struggles and tribulations. It aims to capture the stories of life rather than stories as presented in television and film. See the [announcement](/posts/new-horizons).
+I occasionally write stories, take naps, and stream games.
 
-My tentatively titled company _The Dreamers Club_ is currently on-hold. This is because I both lack the expertise required for many of my aspirations and am uncertain about how to launch the company. See its [mission](#).
+I have quite a few personal projects that I'm working on at various times. They cover various areas such as operating systems, worldbuilding, card games, and constructed languages. None of them are complete, you can see posts on any of them [here](/tags/projects).
+
+<!-- I am working on my worldbuilding project titled _New Horizons_. New Horizons is about the stories of individuals, their struggles and tribulations. It aims to capture the stories of life rather than stories as presented in television and film. See the [announcement](/posts/new-horizons). -->
+
+<!-- My tentatively titled company _The Dreamers Club_ is currently on-hold. This is because I both lack the expertise required for many of my aspirations and am uncertain about how to launch the company. See its [mission](#). -->
 
 <!-- My tentatively titled company _The Dreamers Club_ is currently on-hold. This is because I both lack the expertise required for many of my aspirations and am uncertain about how to launch the company. See its [mission](/posts/the-dreamers-club). -->
 
@@ -29,7 +33,7 @@ As I am normally reserved with my words, I will be more open and direct with the
 
 Thank you and hopefully I <!-- _see_ --> :eye: you around my site.
 
-<u>Resume are available on request.</u>
+<u>Resume available on request.</u> <sub>(This is not a link. Email me.)</sub>
 <!-- [Resume](/docs/2019-01-23-resume-part-time.pdf) && [Cover Letter]() -->
 
 Social Links ([more](/links)):
@@ -37,7 +41,7 @@ Social Links ([more](/links)):
 <!-- * [GitLab](https://gitlab.com/sebastianlau) projects are private. -->
 * [GitHub](https://github.com/le-bananafish)
 * [Twitch](https://twitch.tv/bananafishrwx)
-<!-- * [Instagram](https://instagram.com/sebastianlau25) -->
+* [Instagram](https://instagram.com/sebastianlau25)
 * [Email](mailto:sebastianlauofficial@gmail.com)
 
 Inquiries are always welcome. Please _do not_ contact my _phone number_ unless you are an employer.

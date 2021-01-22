@@ -3,7 +3,7 @@ title: "New Horizons"
 date: 2019-12-12T20:58:16+13:00
 showDate: true
 draft: false
-tags: ["creative-work", "new-horizons", "project", "story", "writing"]
+tags: ["creative-work", "new-horizons", "projects", "story", "writing"]
 ---
 
 # New Horizons

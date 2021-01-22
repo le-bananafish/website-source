@@ -3,7 +3,7 @@ title: "Learning Rust"
 date: 2018-08-28T17:13:05+12:00
 showDate: true
 draft: true
-tags: ["general", "programming", "review", "technology", "rust"]
+tags: ["general", "programming", "review", "technology", "rust", "rust-lang"]
 ---
 
 # Fighting the borrow checker

@@ -4,11 +4,9 @@ date: 2021-01-22T13:11:46+13:00
 showDate: true
 draft: false
 tags: [
-    "complaint", 
     "general", 
     "new-horizons", 
     "projects", 
-    "shower-thought", 
     "society", 
     "writing", 
     "yellow-indium", 

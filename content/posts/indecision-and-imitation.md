@@ -7,7 +7,6 @@ tags: [
     "general", 
     "new-horizons", 
     "projects", 
-    "society", 
     "writing", 
     "yellow-indium", 
 ]

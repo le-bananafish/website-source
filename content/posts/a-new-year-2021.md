@@ -12,7 +12,7 @@ Blah, blah, blah, 2020 was a terrible year. Done.
 
 In the never-ending ~~spirit~~ tradition of setting a new year's resolution that we don't keep to, I thought I'd set a resolution given that we're still in the opening days of the new year, i.e. it's still January. I've still got time to _start_...
 
-> I promise to write at least one post per week, or at the bare minimum, once a month.
+> I promise to write at least one post per fortnight, or at the bare minimum, once a month.
 
 There you go.
 

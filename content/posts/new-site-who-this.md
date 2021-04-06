@@ -2,7 +2,7 @@
 title: "New Site Who This"
 date: 2018-05-22T21:37:43+12:00
 showDate: true
-tags: ["complaint", "general"]
+tags: ["general", "rant-and-ramble"]
 ---
 
 # Secret Hidden Level 1 Header

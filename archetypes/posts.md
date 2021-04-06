@@ -18,7 +18,7 @@ tags: [
     "programming", 
     "projects", 
     "quotes", 
-    "rant", 
+    "rant-n-ramble", 
     "review", 
     "rust", 
     "rust-lang", 

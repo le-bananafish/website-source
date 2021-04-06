@@ -5,7 +5,7 @@ showDate: true
 draft: false
 tags: [
     "general", 
-    "rant", 
+    "rant-and-ramble", 
     "society", 
 ]
 ---

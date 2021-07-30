@@ -3,7 +3,7 @@ title: "Social Justice"
 date: 2019-12-12T23:06:40+13:00
 showDate: true
 draft: false
-tags: ["new-horizons", "projects", "story", "stories"]
+tags: ["project/new-horizons", "projects", "stories"]
 ---
 
 First published on Genesis Planetary on 24 Jun 2017.

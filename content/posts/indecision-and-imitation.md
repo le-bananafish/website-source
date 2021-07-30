@@ -5,10 +5,8 @@ showDate: true
 draft: false
 tags: [
     "general", 
-    "new-horizons", 
     "projects", 
     "writing", 
-    "yellow-indium", 
 ]
 ---
 

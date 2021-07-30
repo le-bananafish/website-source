@@ -6,6 +6,7 @@ draft: false
 tags: [
     "general", 
     "rant-and-ramble", 
+    "site/update", 
 ]
 ---
 

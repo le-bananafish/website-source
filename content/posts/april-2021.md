@@ -1,5 +1,5 @@
 ---
-title: "Maintenance, 2021"
+title: "April 2021"
 date: 2021-04-05T01:48:57+12:00
 showDate: true
 draft: false
@@ -8,6 +8,9 @@ tags: [
     "rant-and-ramble", 
     "site/update", 
 ]
+aliases:
+    # - /posts/april-2021
+    - /posts/maintenance-2021
 ---
 
 # Maintenance and Learning

@@ -2,7 +2,7 @@
 title: "New Horizons"
 date: 2019-12-12T20:58:16+13:00
 showDate: true
-draft: false
+draft: true
 tags: ["project/new-horizons", "projects", "writing"]
 ---
 

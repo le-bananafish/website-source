@@ -1,6 +1,6 @@
 # NOTICE
 
-This repository is licensed under the following conditions. This does not include the `/themes/sam` or `/sebastianlau` folders which have their own terms.
+All the templating, layouts and code related to Hugo are licensed under the following conditions. See below for exceptions.
 
     Copyright 2018 Sebastian Lau
 
@@ -16,8 +16,15 @@ This repository is licensed under the following conditions. This does not includ
     See the License for the specific language governing permissions and
     limitations under the License.
 
-A copy of the Apache License 2.0 will be provided with this repository.
+A [copy](./LICENSE) of the Apache License 2.0 is provided with this repository.
 
-The Sam theme is licensed under the Apache License (presumably 2.0) and is the work of Victoria Drake who __is in no way associated with__ this repository.
+The _current version_ of the Sam theme is licensed under the [Creative Commons Attribution 3.0 license](https://github.com/vickylai/hugo-theme-sam/blob/master/LICENSE.txt).
+<!-- The Sam theme is licensed under the Apache License (presumably 2.0) and is the work of Victoria Drake who __is in no way associated with__ this repository. -->
 
-The `sebastianlau` folder is _currently_ available for viewing but all post content and all media files, including but not limited to documents, images, sound files and video files, are © 2018 Sebastian Lau.
+All post content and all media files, including but not limited to documents, images, sound files and video files, are &copy; 2018 Sebastian Lau.
+
+Those used under license or fair use are the property of their respective authors.
+
+You may __view__ the contents of this repository but may __not reuse__ them.
+
+The `sebastianlau` folder is licensed under its own terms; see the folder for details.

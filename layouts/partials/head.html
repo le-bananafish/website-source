@@ -1,0 +1,18 @@
+{{ partial "head/metadata.html" . }}
+{{ partial "head/favicons.html" . }}
+{{ partial "head/css.html" . }}
+<!-- Google fonts-->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic"> -->
+{{with .Site.Params.fontWeight}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ (replace .Site.Params.fontFamily " " "+") | default "Didact Gothic"}}:wght@{{replace .Site.Params.fontWeight "," ";"}}">
+{{ else }}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{replace .Site.Params.fontFamily "," ";" | default "Didact Gothic"}}">
+{{ end }}
+
+<!-- {{ print .Site.Params.codeFamily}} -->
+
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family={{replace .Site.Params.codeFamily " " "+" | default "Source+Code+Pro"}}'>
+
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}

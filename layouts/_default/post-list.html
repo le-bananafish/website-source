@@ -1,0 +1,34 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+
+<nav class= "list post-list" role="navigation">
+    <ul>
+        {{ range .Data.Pages }}
+        <li>
+            <div class="list-item" onclick="location.href='{{.RelPermalink}}'">
+                <p class="list-item-title">
+                    {{.Title | markdownify}}
+                </p>
+
+                <p class="list-item-date">
+                    {{ if .Params.showDate }}
+                    {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}}
+                    {{ end }}
+                </p>
+
+                <p class="list-item-summary">
+                    {{ with .Description}}
+                        {{ . }}
+                    {{ else }}
+                        {{.Summary}}
+                    {{ end }}
+                </p>
+
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}

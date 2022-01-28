@@ -2,9 +2,9 @@ baseurl                 = "https://le-bananafish.github.io/"               # You
 languageCode            = "en-us"
 title                   = "bananafish"
 theme                   = "sam"
-pygmentsStyle           = "manni"                     # https://help.farbox.com/pygments.html
+pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
 pygmentsCodefences      = true
-googleAnalytics       = "UA-75676000-1"             # Tracking code, eg. "UA-111111111-1"
+googleAnalytics         = "UA-75676000-1"             # Tracking code, eg. "UA-111111111-1"
 
 # build options
 buildDrafts             = false # builds drafts
@@ -23,7 +23,12 @@ publishDir              = "sebastianlau"
     homepage            = "home"                        # What to call the home page link
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Copyright 2018 Sebastian Lau."
+    footerText          = "Copyright 2018 Sebastian Lau.<p><a href='https://gohugo.io'>Hugo</a> with <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>.</p>"
+    fontFamily          = "Outfit"
+    fontWeightDefault   = "100"
+    # Separate font weights with ;
+    fontWeights         = "100;300"
+    # codeFamily          = ""
 
 # Metadata
     description         = "Thoughts, ideas and boredom."            # Max 160 characters show in search results

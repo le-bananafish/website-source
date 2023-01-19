@@ -5,7 +5,6 @@ showDate: true
 draft: false
 tags: [
     "reflections",
-    "project-reflections",
 ]
 ---
 

@@ -5,8 +5,7 @@ showDate: true
 draft: false
 tags: [
     "general", 
-    "projects", 
-    "rant-and-ramble", 
+    "reflections", 
     "site/update", 
 ]
 ---

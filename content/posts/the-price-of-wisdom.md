@@ -6,7 +6,6 @@ draft: false
 tags: [
     "general", 
     "rant-and-ramble", 
-    "society", 
 ]
 ---
 

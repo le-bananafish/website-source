@@ -3,7 +3,12 @@ title: "A New Year 2021"
 date: 2021-01-17T00:30:30+13:00
 showDate: true
 draft: false
-tags: ["general",]
+tags: [
+    "general", 
+    "new-year-thoughts", 
+    "reflections", 
+    "year-in-review",
+    ]
 ---
 
 # Jan 17, 2021

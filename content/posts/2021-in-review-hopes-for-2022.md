@@ -5,9 +5,12 @@ showDate: true
 draft: false
 tags: [
     "general", 
-    "review", 
+    "new-year-thoughts", 
+    "reflections", 
     "site/update", 
     "writing", 
+    "year-in-review",
+    # "review", 
 ]
 ---
 

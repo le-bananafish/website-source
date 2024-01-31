@@ -5,6 +5,7 @@ showDate: true
 draft: true
 tags: [
     # "general", 
+    # "new-year-thoughts", 
     # "project/new-horizons", 
     # "projects", 
     # "rant-and-ramble", 
@@ -13,5 +14,6 @@ tags: [
     # "site/update", 
     # "stories", 
     # "writing", 
+    # "year-in-review", 
 ]
 ---

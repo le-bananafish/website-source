@@ -4,6 +4,7 @@ date: {{ .Date }}
 showDate: true
 draft: true
 tags: [
+    # "archive", 
     # "general", 
     # "new-year-thoughts", 
     # "project/new-horizons", 

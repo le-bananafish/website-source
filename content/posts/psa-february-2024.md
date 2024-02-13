@@ -30,18 +30,12 @@ I also want to talk about my outlook and aspirations for this year but I won't p
 
 I'll dare to say that I may even write a story or two this year and there will surely be a post on keyboards as well.<sup>2</sup>
 
-<!-- I'm also writing a post about my goals for and approach to this year and I'd lie and say it'd arrive by Lunar New Year (February 10th) but it won't. -->
-
-<!-- Thus the purpose of this announcement is to signal that there is content to come and that I have not given up on this site so for the gracious few who read it, so *watch this space*. -->
-
-<!-- Sincere thanks to anyone that is reading! -->
-
 This is all to say an assurance that I have <u>not given up</u> on this site.
 
 As always, and with earnest sincerity, thank you for reading!
 
-<br>
-<br>
+\>> <em>Oh, and fortuitous lunisolar cycle renewal!<sup>3</sup></em>
+
 <br>
 <br>
 <br>
@@ -52,5 +46,4 @@ Notes
 
 - <sup>1</sup>: I actually started many posts but kept running out of steam and motivation due to other commitments (the main excuse being postgrad).
 - <sup>2</sup>: to elaborate &mdash; *Social Justice* is a good story but needs a rewrite; there's a story I really want to write; and this site is in desperate need of some work.
-
-<!-- more on what may come, I desperately need to update and make some customisations to this site so I'll aim do that too. -->
+- <sup>3</sup>: Happy Lunar New Year!

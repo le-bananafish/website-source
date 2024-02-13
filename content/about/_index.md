@@ -7,11 +7,15 @@ Hi, It's me. Who the hell is this ___me___ person being referred to?
 
 My name is Sebastian Lau.
 
-I am currently studying a postgraduate BA(Hons) degree in Linguistics, and have a BSc in Computer Science and a BA in Linguistics from the University of Auckland.
+I have completed a postgraduate BA(Hons) degree in Linguistics, and hold a BSc in Computer Science and a BA in Linguistics from the University of Auckland.
 
 <!-- I describe myself as a pessimist idealist &mdash; I hope for a bright future for humanity but I am sceptical about how we're tracking to get there. Nonetheless, I remain interested in technological advancements, social impact and creative endeavours. -->
 
 I built this site in part as something to put on the CV and in part as a platform for me to express my thoughts, something I rarely do so openly. As a forewarning, this means that posts may be stream of consciousness or may read as incoherent thoughts stitched together.
+
+My interests include technology, gaming, keyboards, linguistics, reading, writing, and thinking. The posts here may cover my interests, life updates, site updates, and other topics.
+
+I would like a _real_ job doing something in technology and wouldn't mind also writing on the side, so hit me up below if anyone's interested.
 
 <!-- For a background on my technical knowledge, I have some experience in the following programming languages: C, C++, Rust, Python, Java, C#, and Web basics (HTML, CSS, JS). I also have some knowledge of the static site generators Jekyll and Hugo. Hugo is currently used to build this site. -->
 
@@ -20,7 +24,11 @@ I built this site in part as something to put on the CV and in part as a platfor
 <!-- <u>Resume available on request.</u> <sub>(This is not a link. Email me.)</sub> -->
 <!-- [Resume](/docs/2019-01-23-resume-part-time.pdf) && [Cover Letter]() -->
 
-If you'd like to get in touch with me or see what I'm up to, feel free to connect through my [Linktree](https://linktr.ee/sebastianlau).
+To get in touch with me or see what I'm up to, feel free to look through my [Linktree](https://linktr.ee/sebastianlau).
+
+<!-- If you'd like to get in touch with me or see what I'm up to, feel free to connect through my [Linktree](https://linktr.ee/sebastianlau). -->
+
+<!-- <blockquote>I can't write for shit, but I'll try.</blockquote> -->
 
 <!-- Curated connections ([more](https://linktr.ee/sebastianlau)): -->
 

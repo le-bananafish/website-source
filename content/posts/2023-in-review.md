@@ -1,7 +1,8 @@
 ---
-title: "[edit] 2023 in Review"
+title: "2023 in Review"
 date: 2023-12-21T02:20:42+13:00
 showDate: true
+edit: true
 draft: true
 tags: [
     "general", 
@@ -17,7 +18,7 @@ tags: [
 ]
 ---
 
-\[Addendum: This post is obviously late in so many ways, you can say it's late<sup><em>3</em></sup> (that's to mean cubed).]
+\>> This post is super late.
 
 I set myself the lofty goal to "write" and work on my creative projects more this year and you can see from the dearth of posts (this is only my second post of the year<sup>4</sup>) that I have not succeeded. In my defence, I chose to do a postgraduate degree (honours). I was not mentally prepared for that endeavour.
 

@@ -1,0 +1,10 @@
+{{ if .Params.archive }}
+[archived]
+{{ end }}
+{{ if .Params.edit }}
+[edit]
+{{ end }}
+{{ if .Params.draft }}
+[draft]
+{{ end }}
+{{ .Title | markdownify}}

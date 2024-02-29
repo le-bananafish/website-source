@@ -1,0 +1,208 @@
+@import "vars"
+@import "mixins"
+
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    background-color: $dark-grey
+    font-family: $font
+    font-size: 16px
+
+body
+    font-size: $body-size
+    font-family: $font
+    color: $body-text
+    // line-height: 2rem
+    line-height: $line-height
+    // letter-spacing: 1.5px
+    letter-spacing: $letter-spacing
+    text-shadow: none
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    // opacity: $opacity
+
+header
+    // padding: 6em 1em 1em 0
+    // margin-top: 1em
+    margin: 2em auto 0
+    padding: 6em 1em 0 0
+    @media screen and (max-width: 736px)
+        padding: 3em 0
+    & h1
+        margin: 2em 0 0
+
+// addition
+main
+    margin 0 auto 2em
+
+h1,h2,h3
+    // margin-bottom: 0.5em
+    margin: 1em 0
+    font-family: 'Didact Gothic', sans-serif
+    opacity: 0.6
+
+li
+    opacity: 0.8
+    & a
+        opacity: 0.9
+
+ul
+    list-style-type: none
+
+p
+    display: inline
+
+a
+    color: $links
+    text-decoration: none
+    border-bottom: 2px solid $links
+    +ease(0.5s)
+    &:hover
+        color: $links-hover
+        font-style: none
+    &:active
+        color: $links
+    // additions
+    &.footnote-ref
+        // color: lawngreen
+        border: none
+        &:hover
+            border-bottom: 2px solid $links-hover
+
+hr
+    +skinny-hr
+    opacity: 0.3
+
+nav
+    margin: 1em auto
+    // addition
+    ul li
+        list-style: disc
+        article
+            // padding-left: 2em
+        p
+            margin: 0
+
+
+strong
+    opacity: 1
+
+.wrap
+    // margin: 0 auto
+    // margin: 2em auto 0
+    width: 45%
+    max-width: 64em
+    @media screen and (max-width: 736px)
+        width: 90%
+
+.tag-container
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+
+.tag
+    background-color: transparent
+    position: relative
+    bottom: 0
+
+.flex-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    // a
+        // display: inline-block
+
+.bottom-menu
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+.footer
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    background-color: transparent
+    position: relative
+    bottom: 0
+    padding: 1rem
+    font-family: $font
+    font-size: 1rem
+    line-height: 1em
+    opacity: 0.8
+    a
+        border-bottom: none
+        display: contents
+
+@import "elements"
+
+// Helpers
+
+.go-left
+    justify-content: flex-start
+    align-items: flex-start
+
+.go-right
+    justify-content: flex-end
+    align-items: flex-end
+
+.go-center
+    justify-content: center
+    align-items: center
+
+// additions
+
+.post-container
+//     padding: 1em
+//     background-color: #fff
+//     opacity: 1
+//     color: #000
+//     margin-bottom: 0.5em
+//     // border-left: 1px solid $border-color
+//     // border-right: 1px solid $border-color
+//     // border-top: 1px solid $border-color
+//     // border-width: 1px
+//     border-radius: 5px
+//     // border-color: $post-border-color
+//     // border-style: solid
+//     box-shadow: $post-bg-color 3px 3px
+//     // border-bottom-style: outset
+//     // border-bottom: 1px outset $border-color
+//     a
+//         color: #000
+//         border-bottom: solid #000
+//     a:hover
+//         border-bottom-color: $post-bg-color
+//     hr
+//         width: 50%
+//         margin: 0.5em 0
+//         color: #000
+//         align-self: center
+
+// .post-details
+    // margin-left: 2em
+    // & .tag-container
+        // margin: 0
+        // padding: 0.5em
+
+// nav.flex-container a
+    // display: inline
+    // opacity: 1
+
+// .nav-item
+    // display: flex
+    // a
+        // display: inline
+

@@ -13,6 +13,8 @@ publishDir              = "sebastianlau"
 
 [markup]
     [markup.goldmark]
+        # [markup.goldmark.extensions]
+            # footnote = true
         [markup.goldmark.renderer]
             unsafe = true
 
@@ -29,6 +31,7 @@ publishDir              = "sebastianlau"
     # Separate font weights with ;
     fontWeights         = "100;300"
     # codeFamily          = ""
+    showTagsInLists     = false
 
 # Metadata
     description         = "Thoughts, ideas and boredom."            # Max 160 characters show in search results
@@ -45,6 +48,18 @@ publishDir              = "sebastianlau"
 # [[params.mainMenu]]
 #     link = "/gallery"
 #     text = "gallery"
+
+# [[params.mainMenu]]
+#     link = "/tags/stories"
+#     text = "stories"
+
+# [[params.mainMenu]]
+#     link = "/tags/archive"
+#     text = "archive"
+
+[[params.mainMenu]]
+    link = "/extras"
+    text = "extras"
 
 [[params.mainMenu]]
     link = "/about"

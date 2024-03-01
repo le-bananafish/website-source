@@ -59,24 +59,11 @@ p
     display: inline
 
 a
-    color: $links
-    text-decoration: none
-    border-bottom: 2px solid $links
-    +ease(0.5s)
-    &:hover
-        color: $links-hover
-        font-style: none
-    &:active
-        color: $links
-    // additions
-    &.footnote-ref
-        // color: lawngreen
-        border: none
-        &:hover
-            border-bottom: 2px solid $links-hover
+    +link-style
 
 hr
     +skinny-hr
+    // +custom-hr
     opacity: 0.3
 
 nav
@@ -147,6 +134,7 @@ strong
         display: contents
 
 @import "elements"
+@import "custom"
 
 // Helpers
 
@@ -161,48 +149,3 @@ strong
 .go-center
     justify-content: center
     align-items: center
-
-// additions
-
-.post-container
-//     padding: 1em
-//     background-color: #fff
-//     opacity: 1
-//     color: #000
-//     margin-bottom: 0.5em
-//     // border-left: 1px solid $border-color
-//     // border-right: 1px solid $border-color
-//     // border-top: 1px solid $border-color
-//     // border-width: 1px
-//     border-radius: 5px
-//     // border-color: $post-border-color
-//     // border-style: solid
-//     box-shadow: $post-bg-color 3px 3px
-//     // border-bottom-style: outset
-//     // border-bottom: 1px outset $border-color
-//     a
-//         color: #000
-//         border-bottom: solid #000
-//     a:hover
-//         border-bottom-color: $post-bg-color
-//     hr
-//         width: 50%
-//         margin: 0.5em 0
-//         color: #000
-//         align-self: center
-
-// .post-details
-    // margin-left: 2em
-    // & .tag-container
-        // margin: 0
-        // padding: 0.5em
-
-// nav.flex-container a
-    // display: inline
-    // opacity: 1
-
-// .nav-item
-    // display: flex
-    // a
-        // display: inline
-

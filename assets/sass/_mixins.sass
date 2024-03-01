@@ -1,0 +1,28 @@
+=skinny-hr
+    margin: 1rem 0
+    background-color: transparent
+    //box-shadow: 0 1px 0 rgba(219,219,219,0.3)
+    width: 50%
+    border-style: solid
+    border-width: 1px
+
+=ease($time)
+    transition: $time ease
+
+=link-style
+    color: $links
+    text-decoration: none
+    border-bottom: 2px solid $links
+    +ease(0.5s)
+    &:hover
+        color: $links-hover
+        font-style: none
+    &:active
+        color: $links
+    // additions
+    &.footnote-ref
+        // color: lawngreen
+        border: none
+        &:hover
+            border-bottom: 2px solid $links-hover
+

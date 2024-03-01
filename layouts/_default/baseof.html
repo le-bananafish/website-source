@@ -20,7 +20,8 @@
     {{ block "main" . }}
     {{ block "section_title" . }}
     <header class="wrap flex-container">
-        <h1>{{ .Title | markdownify }}</h1>
+        <h1>{{ partial "advanced_titles.html" . }}</h1>
+        {{ partial "show_descriptions.html" .}}
     </header>
     {{ end }}
     <main class="wrap">

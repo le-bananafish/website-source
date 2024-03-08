@@ -55,6 +55,12 @@ article
         letter-spacing: 1.5px
     & .highlight
         width: 100%
+        // additions
+        code
+            background-color: inherit
+        pre > code
+            margin: 0
+            padding: 0
     & pre
         line-height: 2rem
         border-radius: 3px
@@ -80,15 +86,20 @@ article
         margin: 2rem auto
         opacity: 1
     & blockquote
-        background-color: $links
-        color: $dark-grey
-        padding: 2rem
-        margin: 2rem 1rem 2rem 1rem
-        border-radius: 3px
+        // background-color: $links
+        // color: $dark-grey
+        color: $links
+        // padding: 2rem
+        padding: 0 0.5em 0 1em // top right bottom left
+        // margin: 2rem 1rem 2rem 1rem
+        margin-left: 1em
+        margin-bottom: 1em
+        border-left: 2px solid $links
+        // border-radius: 3px
         a
-            color: $black
+            // color: $links
         & ul
-            margin-top: 1rem
+            // margin-top: 1rem
         & li
             list-style: disc
     & table
@@ -123,9 +134,6 @@ article
             color: $body-text
             & a
                 color: $body-text
-    // these are my additions
-    // & strong
-        // border-bottom-style: double
 
 .tag
     padding: 0.25em 0em

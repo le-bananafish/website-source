@@ -14,6 +14,11 @@
 - [x] sort tags alphabetically
 - [x] add ability to have page descriptions, archived pages, title prefixes (archive, draft, edit)
 - [ ] modify the styling of certain elements, e.g. blockquotes, horizontal rules
+  - [x] blockquotes
+  - [x] code blocks
+  - [x] horizontal rules (header/footer, article)
+  - [x] fix tags being capital case, [1] (use sitewide config)
+  - [x] simulate bold and italic styles
 - [x] configure fonts through config.toml
 
 "`[beta+]`" features

@@ -1,6 +1,39 @@
 article
     code
+        +side-tag
+        font-size: 0.9em
         font-family: $code
+        padding: 0.1em
+        border-radius: 3px
+        // border: 1px solid $links
+        border: none
+        background-color: $bg-color-mono
+    sup > code
+        padding: .25em
+        padding-left: .5em
+
+blockquote
+    background-color: $dark-grey
+
+strong, b
+    // opacity: 1
+    text-shadow: 0px 1px darken($white, 50%)
+    // border-bottom: 1px double $links
+
+em, i
+    +fake-italic
+
+hr
+    +centred-hr
+
+header > hr, nav > hr, .divider, .footnotes > hr
+    // opacity: 0.6
+    width: 60%
+
+q, cite
+    +fake-italic
+    // color: purple
+    display: block
 .post-container
 //     padding: 1em
 //     background-color: #fff
@@ -67,3 +100,17 @@ article
     opacity: 2
     font-variant: small-caps
     display: inline
+.description
+    // +fake-italic
+
+.left-hr
+    +left-hr
+
+.long-hr
+    +skinny-hr
+    width: inherit
+    // margin: 1rem 16px 1rem
+
+.side-tag
+    +side-tag
+    // background-color: $dark-grey

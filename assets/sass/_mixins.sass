@@ -1,10 +1,18 @@
 =skinny-hr
     margin: 1rem 0
+    // margin: 1rem auto
     background-color: transparent
     //box-shadow: 0 1px 0 rgba(219,219,219,0.3)
-    width: 50%
+    // width: 50%
+    width: 40%
     border-style: solid
     border-width: 1px
+
+=centred-hr
+    margin: 1rem auto
+
+=left-hr
+    margin: 1rem 0
 
 =ease($time)
     transition: $time ease
@@ -25,4 +33,14 @@
         border: none
         &:hover
             border-bottom: 2px solid $links-hover
+
+=fake-italic
+    -webkit-transform: skewX($fake-italic-angle)
+    -moz-transform: skewX($fake-italic-angle)
+     -ms-transform: skewX($fake-italic-angle)
+      -o-transform: skewX($fake-italic-angle)
+         transform: skewX($fake-italic-angle)
+
+=side-tag
+        color: darken(gold, 5%)
 

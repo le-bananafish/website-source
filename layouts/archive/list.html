@@ -1,0 +1,34 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+<nav role="navigation">
+    <!-- {{ $taxonomyObject := .Site.Taxonomies.tags }} -->
+    <!-- {{ $weightedPages := $taxonomyObject.archive }} -->
+    <!-- <pre>{{ jsonify (dict "indent" "  ") $weightedPages }}</pre> -->
+    <ul>
+    {{ range .Site.Taxonomies.tags.archive }}
+        <li>
+            {{ if .Params.showDate }}
+            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --
+            {{ end }}
+            <a href="{{ .RelPermalink }}">
+                {{ partial "advanced_titles.html" .}}
+            </a>
+        </li>
+    {{ end }}
+    </ul>
+    <!-- <hr> -->
+    <!-- {{ range .Site.RegularPages }} -->
+    <!-- <ul> -->
+        <!-- {{ if .Params.archive }} -->
+        <!-- <li> -->
+            <!-- <a href="{{ .RelPermalink }}"> -->
+                <!-- {{ partial "advanced_titles.html" .}} -->
+            <!-- </a> -->
+        <!-- </li> -->
+        <!-- {{ end }} -->
+    <!-- </ul> -->
+    <!-- {{ end }} -->
+</nav>
+{{ end }}

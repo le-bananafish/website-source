@@ -2,7 +2,7 @@
 
 ## Roadmap
 
-> As at Wednesday 28 February, 2024 -- 00:43 [am]
+> As at Friday 8 March, 2024 -- 19:22 [am]
 
 "`[stable]`" features
 
@@ -11,10 +11,10 @@
   - [x] fix oversight whereby underlines do not wrap on homepage due to `block` vs `inline` behaviour (wrapped with `<li>`'s)
   - [x] fix lists not rendering markers
   - [x] fix homepage splash clipping into left when viewport is too small (restore deleted theme behaviour)
-- [ ] have tags be sorted alphabetically
-- [ ] add ability to have page descriptions, archived pages, title prefixes (archive, draft, edit)
-- [ ] make Twitter and OpenGraph render per post/page instead of sitewide default
+- [x] sort tags alphabetically
+- [x] add ability to have page descriptions, archived pages, title prefixes (archive, draft, edit)
 - [ ] modify the styling of certain elements, e.g. blockquotes, horizontal rules
+- [x] configure fonts through config.toml
 
 "`[beta+]`" features
 

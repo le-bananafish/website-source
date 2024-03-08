@@ -26,11 +26,17 @@ publishDir              = "sebastianlau"
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
     clickablePhotos     = true                          # Allow links to the full size images
     footerText          = "Copyright 2018 Sebastian Lau.<p><a href='https://gohugo.io'>Hugo</a> with <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>.</p>"
-    fontFamily          = "Outfit"
+
+    #fonts
+    fontFamily          = "Didact Gothic"
     fontWeightDefault   = "100"
     # Separate font weights with ;
     fontWeights         = "100;300"
-    # codeFamily          = ""
+    # unused
+    # fontFamilies        = ["Didact Gothic", "Roboto"]
+    codeFamily          = "Sometype Mono"
+
+    #display
     showTagsInLists     = false
     # displays post data (date, tags, word count) in <header> if true, in <main> if false
     displayHeader       = true

@@ -32,6 +32,9 @@ publishDir              = "sebastianlau"
     fontWeights         = "100;300"
     # codeFamily          = ""
     showTagsInLists     = false
+    # displays post data (date, tags, word count) in <header> if true, in <main> if false
+    displayHeader       = true
+    # maxWidth            = "600x"
 
 # Metadata
     description         = "Thoughts, ideas and boredom."            # Max 160 characters show in search results

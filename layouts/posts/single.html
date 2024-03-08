@@ -1,20 +1,18 @@
+{{ define "section_title"}}
+<header class="wrap flex-container">
+    <h1>{{ partial "advanced_titles.html" . }}</h1>
+    {{ partial "show_descriptions.html" .}}
+    {{ if $.Site.Params.displayHeader }}
+    {{ partial "header.html" .}}
+    {{ end }}
+</header>
+{{ end }}
+
 {{ define "section_content" }}
 <div class="flex-container">
-    <aside role="complementary">
-        {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006") }} &#183; {{ .WordCount }} words
-        <div class="tag-container">
-            {{ range $term := .Params.tags }}
-            {{ with $.Site.GetPage (printf "/%s/%s" "tags" $term | urlize) }}
-            <span class="tag">
-                <a href="{{ .RelPermalink }}">
-                    {{ $term }}
-                </a>
-            </span>
-            {{ end }}
-            {{ end }}
-        </div>
-    </aside>
-    <hr />
+    {{ if not $.Site.Params.displayHeader }}
+    {{ partial "header.html" .}}
+    {{ end }}
     <article role="article">
         {{ partial "show_archive_note.html" .}}
         {{ .Content }}

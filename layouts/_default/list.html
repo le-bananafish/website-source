@@ -3,8 +3,18 @@
     {{ .Content }}
 </article>
 <nav role="navigation">
+    {{ $pages := .Data.Pages }}
+    <!-- <p>title: {{ .Title }}</p> -->
+    <!-- <p>bool: {{ eq .Title "Tags" }}</p> -->
+    {{ if (eq .Title "Tags")}}
+        {{ $pages = sort .Data.Pages "Title"}}
+        <!-- <p>titles</p> -->
+    {{ else }}
+        {{ $pages = sort .Data.Pages "Date" "desc"}}
+        <!-- <p>dates</p> -->
+    {{ end }}
     <ul>
-        {{ range .Data.Pages }}
+        {{ range $pages }}
         <li>
             {{ if .Params.showDate }}
             {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --

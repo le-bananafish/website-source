@@ -1,5 +1,15 @@
 <aside role="complementary">
-    {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006") }} &#183; {{ .WordCount }} words
+    <!-- <p>{{ .Params.editDate }}</p> -->
+    <span class="date">
+        {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006") }}
+        <!-- {{ with .Params.editDate}}<span class="right-tag">(edited)</span>{{ end }} -->
+    </span>  &#183; 
+    <span class="details">
+        {{ .WordCount }} words
+    </span>
+    {{ with .Params.editDate }}
+    <span class="date special-tag">(updated {{ . | time.Format "Jan 02, 2006" }})</span>
+    {{ end }}
     <div class="tag-container">
         {{ range $term := .Params.tags }}
         {{ with $.Site.GetPage (printf "/%s/%s" "tags" $term | urlize) }}

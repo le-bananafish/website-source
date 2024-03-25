@@ -13,7 +13,9 @@
   - [x] fix homepage splash clipping into left when viewport is too small (restore deleted theme behaviour)
 - [ ] add missing behaviour
   - [x] add lang attribute to `<html>` tags in baseof.html template
-- [x] sort tags alphabetically
+- [x] support sorting lists alphabetically or by date
+  - [x] sort tags alphabetically
+  - [x] sort all other pages by date
 - [x] add custom page elements
   - [x] page descriptions
   - [x] archived pages w/ optional archive notes

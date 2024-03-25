@@ -2,7 +2,7 @@
 
 ## Roadmap
 
-> As at Friday 8 March, 2024 -- 19:22 [am]
+> As at Tuesday 26 March, 2024 -- 00:59 [am]
 
 "`[stable]`" features
 
@@ -26,16 +26,29 @@
   - [x] horizontal rules (header/footer, article)
   - [x] fix tags being capital case, [1] (use sitewide config)
   - [x] simulate bold and italic styles
+- [x] figure out how to make theme-supported gallery work
+  - [x] support clickable images that open to full-sized version
 - [x] configure fonts through config.toml
 
 "`[beta+]`" features
 
+- [ ] rewrite SASS stylesheets with better defaults and structure
 - [ ] build a sitewide gallery that supports filtering images so that posts can have subset galleries
+  - [ ] support scrolling
+  - [ ] support filtering
+  - [ ] support embedding as shortcode
 
 "`[beta]`" features
 
+- [ ] make bottom menu part of footer whilst preserving "back" button in posts
+- [ ] make Twitter and OpenGraph details per post/page instead of sitewide default
 - [ ] automatically generate a table of contents for longer posts
 - [ ] automatically generate a return to top button for longer posts
+- [ ] support search functionality, [2] and [3]
+- [ ] restore some "archived"/deleted posts
+- [ ] posts "series" (e.g. mechanical keyboards pt. 1, pt. 2, etc...)
+
+> The following is effectively archived.
 
 ## Task List
 
@@ -77,3 +90,9 @@ progress
 - I've figured out how to make lists show descriptions and how to get tags to appear on post lists, the next step is to figure out how to define different behaviour for posts and tags
 - I've figured out how to give posts and tags different behaviour, just define separate templates for each page bundle (e.g. /layouts/posts & /layouts/tags)
 - because the links on the homepage are directly within a <nav> flex-container, they are forced to be blocks instead of inline and as such they cannot wrap. the question is how to solve the problem
+
+----
+
+[1]: https://github.com/gohugoio/hugo/issues/12115
+[2]: https://theorangeone.net/posts/hugo-website-search/
+[3]: https://gohugo.io/tools/search/

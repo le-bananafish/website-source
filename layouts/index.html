@@ -42,11 +42,15 @@
         </ul>
 
         {{ else }}
+        <ul>
         {{ range .Site.Sections }}
-            <a href="{{.RelPermalink}}" class="big-link">
-                {{.Title | markdownify}}
-            </a>
+            <li role="button">
+                <a href="{{.RelPermalink}}" class="big-link">
+                    {{.Title | markdownify}}
+                </a>
+            </li>
         {{ end }}
+        </ul>
         {{ end }}
 
     </nav>

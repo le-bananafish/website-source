@@ -8,7 +8,7 @@
 
 - [x] update theme
   - [x] have post titles appear in the title bar instead of only the site name
-  - [x] fix oversight whereby underlines do not wrap on homepage due to `block` vs `inline` behaviour (wrapped with `<li>`'s)
+  - [x] fix oversight whereby underlines do not wrap on homepage due to `block` vs `inline` behaviour (wrapped as `<li>`'s in an `<ul>`)
   - [x] fix lists not rendering markers
   - [x] fix homepage splash clipping into left when viewport is too small (restore deleted theme behaviour)
 - [x] sort tags alphabetically

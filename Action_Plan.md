@@ -14,7 +14,10 @@
 - [ ] add missing behaviour
   - [x] add lang attribute to `<html>` tags in baseof.html template
 - [x] sort tags alphabetically
-- [x] add ability to have page descriptions, archived pages, title prefixes (archive, draft, edit)
+- [x] add custom page elements
+  - [x] page descriptions
+  - [x] archived pages w/ optional archive notes
+  - [x] title labels (archive, draft, edited)
 - [ ] modify the styling of certain elements, e.g. blockquotes, horizontal rules
   - [x] blockquotes
   - [x] code blocks

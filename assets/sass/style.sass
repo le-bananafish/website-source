@@ -123,13 +123,18 @@ nav
     position: relative
     bottom: 0
     padding: 1rem
-    font-family: $font
+    // font-family: $font
     font-size: 1rem
     line-height: 1em
     opacity: 0.8
+    margin: 1rem 0
     a
+        // border-bottom: none
+        // display: contents
+    nav > p > a
+        +link-style
+    .footer-text > a
         border-bottom: none
-        display: contents
 
 @import "elements"
 @import "custom"

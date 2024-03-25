@@ -18,7 +18,7 @@ tags: [
 ]
 ---
 
-**This a public service announcement from the administrator:**
+**This is a public service announcement from the administrator:**
 
 You can probably tell from the lack of posts that I didn't write any posts last year.[^1]
 
@@ -34,15 +34,15 @@ This is all to say an assurance that I have <u>not given up</u> on this site.
 
 As always, and with earnest sincerity, thank you for reading!
 
-\>> <em>Oh, and fortuitous lunisolar cycle renewal![^3]
+\>> <em>Oh, and fortuitous lunisolar cycle renewal![^3]</em>
 
-<br>
-<br>
-<br>
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
 
 <!-- ---- -->
 
-Notes
+<!-- Notes -->
 
 [^1]: I actually started many posts but kept running out of steam and motivation due to other commitments (the main excuse being postgrad).
 [^2]: to elaborate &mdash; *Social Justice* is a good story but needs a rewrite; there's a story I really want to write; and this site is in desperate need of some work.

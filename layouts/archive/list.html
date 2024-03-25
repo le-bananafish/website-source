@@ -6,6 +6,14 @@
     <!-- {{ $taxonomyObject := .Site.Taxonomies.tags }} -->
     <!-- {{ $weightedPages := $taxonomyObject.archive }} -->
     <!-- <pre>{{ jsonify (dict "indent" "  ") $weightedPages }}</pre> -->
+    
+    <!-- {{ $archived := where $.Site.RegularPages "Params.archive" true }} -->
+    <!-- <p>archived: {{ $archived | len }}</p> -->
+    <!-- <ul> -->
+        <!-- {{ range (where $.Site.RegularPages "Params.archive" true) }} -->
+        <!-- <li><p>{{ . }}</p></li> -->
+        <!-- {{ end }} -->
+    <!-- </ul> -->
     <ul>
     {{ range .Site.Taxonomies.tags.archive }}
         <li>

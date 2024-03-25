@@ -10,7 +10,7 @@ tags: [
 ]
 aliases:
     # - /posts/april-2021
-    - /posts/maintenance-2021
+    [ "/posts/maintenance-2021",]
 ---
 
 # Maintenance and Learning

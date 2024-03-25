@@ -14,16 +14,14 @@ tags: [
 ]
 ---
 
-<p class="center-quote"><em>What better way to start off the new year than to review last year?</em><br>
-- <em>Sebastian Lau, <strong>actually</strong> 2022 <del>(actually 2021)</del></em>
-</p>
+*What better way to start off the new year than to review last year?*
+<cite>- Sebastian Lau, actually 2022 ~~(actually 2021)~~</cite>
 
 ## Part 1: 2021 in Review
 
-<u>__Year of Stanisław Lem__</u>
+### Year of Stanisław Lem
 
-<p class="center-quote"><em>The year of 2021 is declared the Year of Stanisław Lem in Poland, according to the November 27, 2020 resolution of Sejm (the lower house of the parliament of Poland). [...] 2021 is the year of the 100th Stanisław Lem anniversary.</em><br>
-- <a href="https://en.wikipedia.org/wiki/Year_of_Lem">Wikipedia</a></p>
+*The year of 2021 is declared the Year of Stanisław Lem in Poland, according to the November 27, 2020 resolution of Sejm (the lower house of the parliament of Poland). [...] 2021 is the year of the 100th Stanisław Lem anniversary.*<cite>- <a href="https://en.wikipedia.org/wiki/Year_of_Lem">Wikipedia</a></cite>
 
 Incidentally, I only found that out because my sister kept pestering me to finish _Normal People_ by Sally Rooney so that she could read it.
 
@@ -47,9 +45,9 @@ From what we are read of the literature, it echoes how ill-defined some technica
 
 `PS:` I've managed to somehow basically write a review. Well, there you go.
 
-<hr style="margin:auto">
+<!-- <hr> -->
 
-<u>__Accountability: NY's Resolution in Review__</u>
+### Accountability: NY's Resolution in Review
 
 So... How did I do with my NY's Resolution?
 
@@ -86,17 +84,17 @@ I wrote only 9 posts in the year though based on some of the ideas I had, I migh
 
 On reflection, I probably should've (pre-)pre-planned my posts and written them in advance of when I intended to post them. If I'm being even more "work smart", I should've set a schedule to measure my progress against.
 
-<hr style="margin:auto">
+<!-- <hr> -->
 
 ## Part 2: ~~Hopes for~~ 2020v2 in Real-Time
 
-<u>__A Little Thing Called Hope__</u>
+### A Little Thing Called Hope
 
 As you can tell, I was originally going to talk about some hopes for 2022 <sup>(if it's at all interesting)</sup> but since we're already in late January, it no longer feels right. I'll just talk about how January's been and how the year looks like it'll shape up.
 
-<hr style="margin:auto">
+<!-- <hr> -->
 
-<u>__January in Review__</u>
+### January in Review
 
 Having lived through most of January by the time you'll be able to read this post, I have to say that Year 3 of COVID does not have me optimistic about the rest of this year. Nonetheless, it's going to be interesting. We're moving into... well at the time of writing, we're 32 minutes into living under Red again. At least, it is pretty certain that we'll be going back to uni in-person for the most part.
 
@@ -108,7 +106,7 @@ Bungie got rid of sunsetting (_hard-earned gear? well, wait a few seasons, you w
 
 My sister started watching Money Heist and Superstore (_f*ing hilarious_), which we've been watching on VodafoneTV <sup>(EOL in September tho :cry:)</sup>. _No Way Home_ was a lot better than I thought it was going to be; _Matrix: Resurrections_ wasn't; _Ghostbusters: Afterlife_ was good. I don't know what else to say.
 
-Summer Lab, an entrepreneurship programme run by the uni, has started and it's been both chill and intense at the same time. We essentially chose what we would be working on for the next three weeks on the first day. The pressure to be ontop of things hasn't been helped by my terrible sleep schedule and the fact that Summer Lab starts at ~~10am~~ well.., we're meant to be there by 9:45. ~~<sup>(in fact, <sup>super</sup> secret I'm meant to be researching right now)</sup>~~.
+Summer Lab, an entrepreneurship programme run by the uni, has started and it's been both chill and intense at the same time. We essentially chose what we would be working on for the next three weeks on the first day. The pressure to be on top of things hasn't been helped by my terrible sleep schedule and the fact that Summer Lab starts at ~~10am~~ well.., we're meant to be there by 9:45. ~~<sup>(in fact, <sup>super</sup> secret I'm meant to be researching right now)</sup>~~.
 
 We're so close to going back to uni and I just got the news (email) today that Clubs Expo won't be as in-person as before; those virtual Zoom stalls will be happening again :disappointed:, but what can you do with Omicron threatening to get all of us... (Is this meant to be a secret?)
 
@@ -118,9 +116,9 @@ I'm just done with working out plot holes, both as a result of forgetting about 
 
 So... this seems like a good segue...
 
-<hr style="margin:auto">
+<!-- <hr> -->
 
-<u>__2022 Resolutions__</u>
+### 2022 Resolutions
 
 My resolution for 2022 is to do more writing things, which is essentially the same as the one I set in [2021](posts/a-new-year-2021/). Which ironically, I'm not doing right now. And fancily:
 
@@ -135,9 +133,9 @@ There are some thoughts I had on metrics to meet this resolution, and whilst non
 
 And... \<Insert segue>
 
-<hr style="margin:auto">
+<!-- <hr> -->
 
-<u>__Roadmap__</u>
+### Roadmap
 
 <sup>because promising things that I don't deliver is great...</sup>
 
@@ -157,7 +155,7 @@ Long story short, I was working on the idea for a video game set in New Horizons
 
 Anyways, thanks for reading. I think the next post will be me lamenting how I have no clue what my career looks like. Fun, isn't it? :grinning:
 
-<hr style="margin:auto">
+<hr>
 
 <br>
 <br>

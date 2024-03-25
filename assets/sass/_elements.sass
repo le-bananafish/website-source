@@ -1,3 +1,5 @@
+@use "_vars"
+
 #splash
     // addition
     margin: auto 0
@@ -28,9 +30,11 @@
     line-height: 3rem
     margin-bottom: 2rem
 
-article
+// article
+main
     width: 100%
-    line-height: 2em
+    // line-height: 2em
+    line-height: $line-height
     letter-spacing: 2px
     opacity: $opacity
     div
@@ -38,8 +42,8 @@ article
         height: 100%
         margin-bottom: 1em
     & h1,h2,h3
-        margin: 1em 0em
-        text-align: left
+        // margin: 1em 0em
+        // text-align: left
     & .anchor-link > a
         border-bottom: none
         color: $body-text
@@ -51,8 +55,8 @@ article
         display: block
         margin-bottom: 1em
         // line-height: 1.6
-        line-height: 1.8
-        letter-spacing: 1.5px
+        // line-height: $line-height
+        // letter-spacing: $letter-spacing
     & .highlight
         width: 100%
         // additions
@@ -92,9 +96,9 @@ article
         // padding: 2rem
         padding: 0 0.5em 0 1em // top right bottom left
         // margin: 2rem 1rem 2rem 1rem
-        margin-left: 1em
-        margin-bottom: 1em
-        border-left: 2px solid $links
+        // margin-left: 1em
+        // margin-bottom: 1em
+        // border-left: 2px solid $links
         // border-radius: 3px
         a
             // color: $links
@@ -156,6 +160,10 @@ article
 .grid > div
     background-color: transparent
     overflow: hidden
+    height: fit-content
+    // border: 2px solid $bg-color-mono
+    // border-top: none
+    // border-radius: 8px
 
 .grid > div > img
     height: 100%
@@ -166,11 +174,26 @@ article
 .grid > div > a
     border-bottom: none
 
+.grid > div > .details
+    // opacity: 0.4
+    // background-color: lighten(black, 35%)
+    background-color: transparentize($black, 0.75)
+    display: inline-block
+    border-end-end-radius: inherit
+    border-bottom-left-radius: inherit
+    // border-radius: inherit
+    p
+        color: $white
+        opacity: 1
+        padding-left: 0.5rem
+        margin: 0
+
 .grid > div > a > img
     height: 100%
     width: 100%
     object-fit: cover
     opacity: 1
+    margin: 0
 
 .video
     position: fixed

@@ -1,9 +1,13 @@
+@use "_vars"
+@use "mixins"
+
 article
     code
         +side-tag
         font-size: 0.9em
         font-family: $code
         padding: 0.1em
+        padding-left: 0.3em
         border-radius: 3px
         // border: 1px solid $links
         border: none
@@ -11,29 +15,59 @@ article
     sup > code
         padding: .25em
         padding-left: .5em
+    hr
+        +centred-hr
+
+aside
+    p
+        margin: 0
 
 blockquote
-    background-color: $dark-grey
+    border-left: 1px solid $links
+    margin-left: 1em
+    margin-bottom: 1em
+    // background-color: $dark-grey
+    p
+        margin: 0.5em 0
+
+footer
+    margin: 0 auto
+    padding: 6em 1em 0 0
+    @media screen and (max-width: 736px)
+        padding: 3em 0
+    p, p.footer-text
+        // font-size: 0.8em
 
 strong, b
     // opacity: 1
+    font-weight: bold
     text-shadow: 0px 1px darken($white, 50%)
     // border-bottom: 1px double $links
 
 em, i
-    +fake-italic
-
-hr
-    +centred-hr
+    // +fake-italic
+    font-style: italic
 
 header > hr, nav > hr, .divider, .footnotes > hr
     // opacity: 0.6
     width: 60%
 
 q, cite
-    +fake-italic
+    // +fake-italic
     // color: purple
+    // display: block
+
+cite
     display: block
+
+q
+    display: inline
+    // +fake-italic
+    // font-style: italic
+
+p
+    display: block
+
 .post-container
 //     padding: 1em
 //     background-color: #fff
@@ -118,6 +152,30 @@ q, cite
     font-size: 0.8rem
     font-style: italic
 
+.footnotes
+    opacity: 0.6
+    width: 70%
+    margin: 1rem auto
+    font-size: 0.8rem
+    padding-top: 6rem
+    ol
+        li:hover, li:target
+            color: ivory
+            opacity: 1
+            // background-color: rgba(darken(gold, 15%), 1%)
+            background-color: rgba(darken($white, 60%), 0.5%)
+        li::marker
+            color: $body-text
+
+.footnote-ref
+    border: none
+    &:hover
+        border-bottom: 2px solid $links-hover
+    &:focus
+        color: green
+    &:target
+        color: green
+
 .left-hr
     +left-hr
 
@@ -133,6 +191,10 @@ q, cite
 .left-tag
     // +side-tag
     // +small-caps
+
+.small-caps
+    +small-caps
+    font-size: 1.3rem
 
 .special-tag
     font-size: 0.8rem

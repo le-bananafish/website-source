@@ -1,3 +1,5 @@
+@use "_vars"
+
 =skinny-hr
     margin: 1rem 0
     // margin: 1rem auto
@@ -24,15 +26,9 @@
     +ease(0.5s)
     &:hover
         color: $links-hover
-        font-style: none
+        // font-style: none
     &:active
         color: $links
-    // additions
-    &.footnote-ref
-        // color: lawngreen
-        border: none
-        &:hover
-            border-bottom: 2px solid $links-hover
 
 =fake-italic
     -webkit-transform: skewX($fake-italic-angle)
@@ -44,3 +40,8 @@
 =side-tag
     color: $accent-color-mono
 
+=small-caps
+    font-variant: small-caps
+
+=link-style-proper
+    text-decoration: underline

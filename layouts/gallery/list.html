@@ -1,34 +1,45 @@
 {{ define "section_content" }}
 <article role="article" class="flex-container">
     {{ .Content }}
+    <!-- <p>winner: {{ or $.Site.Params.maxWidth $.Site.Params.maxHeight }}</p> -->
+    <!-- <p>keep-aspect-ratio: {{ .Site.Params.keepAspectRatio }}</p> -->
 </article>
 
-{{ $keepAspectRatio := default false .Params.keepAspectRatio }}
-{{ if .Params.clickablePhotos }}
+{{ $keepAspectRatio := default false .Site.Params.keepAspectRatio }}
+{{ if .Site.Params.clickablePhotos }}
     <div class="grid {{ cond $keepAspectRatio "keep-aspect-ratio" "" }}">
     {{ $images := .Resources.ByType "image" }}
+    <!-- <p>{{ $images | len }}</p> -->
     {{ range $index, $element := shuffle $images }}
-        {{ $resized := $element.Resize $.Params.maxWidth }}
+        {{ $resized := $element.Fill (printf "%s Center" $.Site.Params.maxSize)}}
         <div>
             <a href="{{ $element.RelPermalink }}" data-size="{{ $element.Width }}x{{ $element.Height }}">
                 <img src="{{ $resized.RelPermalink }}" alt="{{ $element.Name }}" data-index="{{ $index }}"/>
             </a>
+            <!-- {{ with $element.Exif }} -->
+                <!-- <div class="details"> -->
+                    <!-- <p>{{ .Date | time.Format (or ":date_long" $.Site.Params.dateform) }}</p> -->
+                <!-- </div> -->
+                <!-- {{ end }} -->
+            <!-- <p>width={{$element.Width}},height={{$element.Height}}</p> -->
         </div>
     {{ end }}
+    <!-- <p>A</p> -->
     </div>
 {{ else }}
     <div class="grid {{ cond $keepAspectRatio "keep-aspect-ratio" "" }}">
     {{ $images := .Resources.ByType "image" }}
     {{ range shuffle $images }}
-        {{ $resized := .Resize $.Params.maxWidth }}
+        {{ $resized := .Resize $.Site.Params.maxWidth }}
         <div>
             <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" />
         </div>
     {{ end }}
+    <!-- <p>B</p> -->
     </div>
 {{ end }}
 
-{{ if .Params.clickablePhotos }}
+{{ if .Site.Params.clickablePhotos }}
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

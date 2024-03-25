@@ -21,28 +21,26 @@ publishDir              = "sebastianlau"
 
 [params]
     dateform            = "Mon Jan 02, 2006"
-    dateformfull        = "Mon Jan 2 2006 15:04:05 NZST"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 NZST" #unused
     favicon             = "/sam.ico"
     homepage            = "home"                        # What to call the home page link
+#Gallery
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    # maxWidth            = "400x" # unused
+    # maxHeight           = "x400" # unused
+    maxSize             = "600x400"
+    keepAspectRatio     = true
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Copyright 2018 Sebastian Lau.<p><a href='https://gohugo.io'>Hugo</a> with <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>.</p>"
-
-    #fonts
+    footerText          = "&copy; 2018 Sebastian Lau.<br>Built on <a href='https://gohugo.io'>Hugo</a> using <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>."
+#Fonts
     fontFamily          = "Didact Gothic"
-    fontWeightDefault   = "100"
-    # Separate font weights with ;
-    fontWeights         = "100;300"
-    # unused
-    # fontFamilies        = ["Didact Gothic", "Roboto"]
+    # fontWeightDefault   = "100" (unused)
+    # fontWeights         = "100;300" # Separate font weights with ; (unused)
     codeFamily          = "Sometype Mono"
-
-    #display
-    showTagsInLists     = false
-    # displays post data (date, tags, word count) in <header> if true, in <main> if false
-    displayHeader       = true
-    # maxWidth            = "600x"
-
+#Sections
+    # showTagsInLists     = false
+    displayHeader       = true  # displays post data (date, tags, word count) in <header> if true, in <main> if false
+    displayBottomMenu   = false # displays bottom menu in <footer> if true, in <main> if false (unused)
 # Metadata
     description         = "Thoughts, ideas and boredom."            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”

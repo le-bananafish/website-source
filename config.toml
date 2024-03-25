@@ -1,5 +1,5 @@
 baseurl                 = "https://le-bananafish.github.io/"               # Your domain name. Must end with "/"
-languageCode            = "en-us"
+languageCode            = "en-NZ"
 title                   = "bananafish"
 theme                   = "sam"
 googleAnalytics         = "G-RFETXCY0Q9"             # Tracking code, eg. "UA-111111111-1"

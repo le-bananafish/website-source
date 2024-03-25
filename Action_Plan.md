@@ -11,6 +11,7 @@
   - [x] fix oversight whereby underlines do not wrap on homepage due to `block` vs `inline` behaviour (wrapped as `<li>`'s in an `<ul>`)
   - [x] fix lists not rendering markers
   - [x] fix homepage splash clipping into left when viewport is too small (restore deleted theme behaviour)
+- [x] update theme to use ONLY Dart Sass (duplicate and modify partial `head/css.html`)
 - [ ] add missing behaviour
   - [x] add lang attribute to `<html>` tags in baseof.html template
 - [x] support sorting lists alphabetically or by date

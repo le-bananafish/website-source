@@ -1,0 +1,15 @@
+{{ if .Params.archive }}
+<span class="left-tag">[archived]</span>
+<!-- <span class="right-tag">(archived)</span> -->
+{{ end }}
+{{ (or .Title .LinkTitle) | markdownify}}
+{{ if .Params.edit }}
+<!-- <span class="side-tag">[edit]</span> -->
+{{ end }}
+{{ if .Params.editDate }}
+<span class="right-tag">(edited)</span>
+{{ end }}
+{{ if .Params.draft }}
+<!-- <span class="side-tag">[draft]</span> -->
+<span class="side-tag">(draft)</span>
+{{ end }}

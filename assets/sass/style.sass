@@ -1,0 +1,176 @@
+$font: {{ .Site.Params.fontFamily | default "Didact Gothic"}}, sans serif
+$code: {{ .Site.Params.codeFamily | default "Source Code Pro"}}, monospace
+
+@import "vars"
+@import "mixins"
+
+*
+    margin: 0
+    padding: 0
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    background-color: $dark-grey
+    // font-family: $font
+    font-size: 16px
+
+body
+    font-size: $body-size
+    font-family: $font
+    color: $body-text
+    // line-height: 2rem
+    line-height: $line-height
+    // letter-spacing: 1.5px
+    letter-spacing: $letter-spacing
+    text-shadow: none
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    opacity: $opacity
+
+header
+    // padding: 6em 1em 1em 0
+    // margin-top: 1em
+    margin: 6em auto 0
+    padding-top: 2em
+    // opacity: 1
+    @media screen and (max-width: 736px)
+        padding: 3rem 0 1rem
+    & h1
+        font-weight: normal
+        margin: 0 0 2rem
+        opacity: 1
+
+// addition
+// main
+    // margin 0 auto 2em
+
+h1,h2,h3
+    // margin-bottom: 0.5em
+    margin: 1em 0
+    // font-family: 'Didact Gothic', sans-serif
+    opacity: 0.6
+    // opacity: 1
+    // font-weight: normal
+
+h3, h4, h5, h6
+    +link-style-proper
+    width: fit-content
+    opacity: 0.8
+
+h1
+    font-size: 2rem
+
+h2
+    font-size: 1.5rem
+
+h3
+    font-size: 1.1rem
+
+li
+    // opacity: 0.8
+    // opacity: $opacity
+    & a
+        // opacity: 0.9
+        // opacity: $opacity
+
+ul
+    list-style-type: none
+
+p
+    display: inline
+    margin-bottom: 1rem
+
+a
+    +link-style
+
+hr
+    +skinny-hr
+    opacity: 0.3
+
+nav
+    margin: 1em auto
+    // addition
+    ul li
+        list-style: disc
+        article
+            // padding-left: 2em
+        p
+            margin: 0
+
+.wrap
+    // margin: 0 auto
+    // margin: 2em auto 0
+    width: 45%
+    max-width: 64em
+    @media screen and (max-width: 736px)
+        width: 90%
+
+.tag-container
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: flex-start
+    align-items: center
+
+.tag
+    background-color: transparent
+    position: relative
+    bottom: 0
+
+.flex-container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: flex-start
+    // a
+        // display: inline-block
+
+.bottom-menu
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+
+.footer
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    background-color: transparent
+    position: relative
+    bottom: 0
+    padding: 1rem
+    // font-family: $font
+    font-size: 1rem
+    line-height: 1em
+    opacity: 0.8
+    margin: 1rem 0
+    a
+        // border-bottom: none
+        // display: contents
+    nav > p > a
+        +link-style
+    .footer-text > a
+        border-bottom: none
+
+@import "elements"
+@import "custom"
+
+// Helpers
+
+.go-left
+    justify-content: flex-start
+    align-items: flex-start
+
+.go-right
+    justify-content: flex-end
+    align-items: flex-end
+
+.go-center
+    justify-content: center
+    align-items: center

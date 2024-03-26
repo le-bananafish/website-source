@@ -1,0 +1,221 @@
+@use "sass:color"
+@use "_vars"
+
+#splash
+    // addition
+    margin: auto 0
+    min-height: 100vh
+    // min-height: calc(100vh - 6em)
+    width: 45%
+    @media screen and (max-width: 736px)
+        width: 90%
+        // font-size: 50vw
+    // a
+        // display: inline
+    ul li
+        list-style-type: none
+        padding-bottom: 2em
+
+.big-link
+    // font-family: $font
+    font-size: 3rem
+    font-weight: 300
+    margin-bottom: 2rem
+    line-height: 1.5em
+    // display: inline
+
+#title
+    margin-top: 3rem
+    // font-family: $font
+    font-size: 2rem
+    line-height: 3rem
+    margin-bottom: 2rem
+
+// article
+main
+    width: 100%
+    // line-height: 2em
+    line-height: $line-height
+    letter-spacing: 2px
+    opacity: $opacity
+    div
+        width: 100%
+        height: 100%
+        margin-bottom: 1em
+    & h1,h2,h3
+        // margin: 1em 0em
+        // text-align: left
+    & .anchor-link > a
+        border-bottom: none
+        color: $body-text
+        &:hover > .pilcrow
+            display: inline
+    & span.pilcrow
+        display: none
+    & p
+        display: block
+        margin-bottom: 1em
+        // line-height: 1.6
+        // line-height: $line-height
+        // letter-spacing: $letter-spacing
+    & .highlight
+        width: 100%
+        // additions
+        code
+            background-color: inherit
+        pre > code
+            margin: 0
+            padding: 0
+    & pre
+        line-height: 2rem
+        border-radius: 3px
+        padding: 1rem
+        overflow-x: auto
+        background-color: $code-block
+        width: 100%
+        margin-bottom: 1em
+        // addition
+        font-family: $code
+    & pre > code
+        border: none
+    & code
+        font-size: 0.9rem
+        font-family: $code
+        padding: 0.1rem
+        border-radius: 3px
+        border: 1px solid $links
+    & img
+        width: 100%
+        max-width: 100%
+        display: block
+        margin: 2rem auto
+        opacity: 1
+    & blockquote
+        // background-color: $links
+        // color: $dark-grey
+        color: $links
+        // padding: 2rem
+        padding: 0 0.5em 0 1em // top right bottom left
+        // margin: 2rem 1rem 2rem 1rem
+        // margin-left: 1em
+        // margin-bottom: 1em
+        // border-left: 2px solid $links
+        // border-radius: 3px
+        a
+            // color: $links
+        & ul
+            // margin-top: 1rem
+        & li
+            list-style: disc
+    & table
+        width: 100%
+        border-collapse: collapse
+        margin: 1rem 0
+        overflow-x: auto
+        th
+            font-size: 0.9rem
+        td, th
+            padding: 2px 5px
+            text-align: center
+            border: 1px solid $links
+    & li
+        line-height: 2
+        padding-left: 0.4rem
+        &:last-child
+            margin-bottom: 1rem
+    & ul
+        list-style: disc outside
+        padding-left: 2rem
+    & ol
+        list-style: decimal outside
+        padding-left: 2rem
+    & .gist
+        max-width: 100%
+        td, th
+            text-align: left
+            border: 0
+        & .gist-meta
+            background-color: transparent
+            color: $body-text
+            & a
+                color: $body-text
+
+.tag
+    padding: 0.25em 0em
+    margin-right: 0.5em
+    opacity: 0.6
+
+.grid
+    margin: 1em auto
+    display: grid
+    grid-gap: 20px
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+    grid-auto-rows: 400px
+    @media screen and (max-width: 736px)
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr))
+
+    &.keep-aspect-ratio
+        grid-auto-rows: auto
+        place-items: start
+
+.grid > div
+    background-color: transparent
+    overflow: hidden
+    height: fit-content
+    // border: 2px solid $bg-color-mono
+    // border-top: none
+    // border-radius: 8px
+
+.grid > div > img
+    height: 100%
+    width: 100%
+    object-fit: cover
+    opacity: 1
+
+.grid > div > a
+    border-bottom: none
+
+.grid > div > .details
+    // opacity: 0.4
+    // background-color: lighten(black, 35%)
+    background-color: transparentize($black, 0.75)
+    background-color: color.scale($black, $alpha: -75%)
+    display: inline-block
+    border-end-end-radius: inherit
+    border-bottom-left-radius: inherit
+    // border-radius: inherit
+    p
+        color: $white
+        opacity: 1
+        padding-left: 0.5rem
+        margin: 0
+
+.grid > div > a > img
+    height: 100%
+    width: 100%
+    object-fit: cover
+    opacity: 1
+    margin: 0
+
+.video
+    position: fixed
+    z-index: -1
+
+#overlay
+    position: fixed
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+    background: rgba(0,0,0, 0.4)
+    z-index: -1
+
+@media (min-aspect-ratio: 16/9)
+    .video
+        width: 100%
+        height: auto
+
+@media (max-aspect-ratio: 16/9)
+    .video
+        width: auto
+        height: 100%

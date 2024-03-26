@@ -1,0 +1,30 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+<nav role="navigation">
+    {{ $pages := .Data.Pages }}
+    <!-- <p>title: {{ .Title }}</p> -->
+    <!-- <p>bool: {{ eq .Title "Tags" }}</p> -->
+    {{ if (eq .Title "Tags")}}
+        {{ $pages = sort .Data.Pages "Title"}}
+        <!-- <p>titles</p> -->
+    {{ else }}
+        {{ $pages = sort .Data.Pages "Date" "desc"}}
+        <!-- <p>dates</p> -->
+    {{ end }}
+    <ul>
+        {{ range $pages }}
+        <li>
+            {{ if .Params.showDate }}
+            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --
+            {{ end }}
+            <a href="{{.RelPermalink}}">
+                {{ partial "advanced_titles.html" .}}
+            </a>
+            <!-- <p>{{ . }}</p> -->
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}

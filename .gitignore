@@ -1,2 +1,5 @@
-.vscode
+_archive
+.vscode/settings.json
+.vscode/spellright.dict
 **temp*
+resources/_gen

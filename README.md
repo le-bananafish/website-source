@@ -1,8 +1,28 @@
-# NOTICE
+# README
 
-All the templating, layouts and code related to Hugo are licensed under the following conditions. See below for exceptions.
+## SET-UP
 
-    Copyright 2018 Sebastian Lau
+This is ALL you need to set-up, no annoying `npm`:
+
+    brew install git hugo sass/sass/sass    # on macOS
+    choco install git hugo-extended sass    # on Windows
+
+## COPYRIGHT NOTICE
+
+The contents of this repository are the copyrighted work of their respective authors and are licensed **as follows**:
+
+- The layout and code here are licensed under the terms of the Apache License 2.0 and are &copy; 2018 Sebastian Lau.
+
+- The [Sam] theme (`/themes/sam`) is licensed under the Apache License 2.0 and is the work of Victoria Drake who __is in no way associated with__ this repository.
+
+- All post content and all media files, including but not limited to documents, images, sound files and video files, are &copy; 2018 Sebastian Lau. *All Rights Reserved.*
+
+- All other content or code used under license or fair use are the property of their respective authors.
+
+A [copy] of the Apache License 2.0 is provided with this repository.
+
+    Copyright 2018 Sebastian Lau (layout, code)
+    Copyright 2018-2022 Victoria Drake (Sam theme)
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,15 +36,9 @@ All the templating, layouts and code related to Hugo are licensed under the foll
     See the License for the specific language governing permissions and
     limitations under the License.
 
-A [copy](./LICENSE) of the Apache License 2.0 is provided with this repository.
-
-The _current version_ of the Sam theme is licensed under the [Creative Commons Attribution 3.0 license](https://github.com/vickylai/hugo-theme-sam/blob/master/LICENSE.txt).
-<!-- The Sam theme is licensed under the Apache License (presumably 2.0) and is the work of Victoria Drake who __is in no way associated with__ this repository. -->
-
-All post content and all media files, including but not limited to documents, images, sound files and video files, are &copy; 2018 Sebastian Lau.
-
-Those used under license or fair use are the property of their respective authors.
-
 You may __view__ the contents of this repository but may __not reuse__ them.
 
 The `sebastianlau` folder is licensed under its own terms; see the folder for details.
+
+[Sam]: https://github.com/victoriadrake/hugo-theme-sam
+[copy]: ./LICENSE

@@ -1,5 +1,5 @@
 ---
-title: "[archived] Social Justice"
+title: "Social Justice"
 date: 2019-12-12T23:06:40+13:00
 showDate: true
 draft: false
@@ -9,9 +9,9 @@ tags: [
     "projects", 
     "stories"
     ]
+archive: true
+archiveNote: "This version has been successful in conveying the narrative, tone and intent of the story. However, it is written in a rather literal and expository manner that doesn't do the story enough justice. It is preserved here in recognition of its merit."
 ---
-
-<blockquote><strong>Archival Note:</strong> This version has been successful in conveying the narrative, tone and intent of the story. However, it is written in a rather literal and expository manner that doesn't do the story enough justice. It is preserved here in recognition of its merit.</blockquote>
 
 First published on Genesis Planetary on 24 Jun 2017.
 

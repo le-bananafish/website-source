@@ -1,0 +1,27 @@
+{{ define "section_title"}}
+<header class="wrap flex-container">
+    <h1>{{ partial "advanced_titles.html" . }}</h1>
+    {{ partial "show_descriptions.html" .}}
+    {{ if $.Site.Params.displayHeader }}
+    {{ partial "header.html" .}}
+    {{ end }}
+</header>
+{{ end }}
+
+{{ define "section_content" }}
+<div class="flex-container">
+    {{ if not $.Site.Params.displayHeader }}
+    {{ partial "header.html" .}}
+    {{ end }}
+    <article role="article">
+        {{ partial "show_archive_note.html" .}}
+        {{ .Content }}
+    </article>
+</div>
+{{ end }}
+
+{{ define "bottom-menu" }}
+<nav role="navigation" class="flex-container bottom-menu">
+    {{ partial "bottom_menu.html" (dict "Page" . "show_back_menu_item" true) }}
+</nav>
+{{ end }}

@@ -1,10 +1,9 @@
 baseurl                 = "https://le-bananafish.github.io/"               # Your domain name. Must end with "/"
-languageCode            = "en-us"
+languageCode            = "en-NZ"
 title                   = "bananafish"
 theme                   = "sam"
-pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
-pygmentsCodefences      = true
 googleAnalytics         = "G-RFETXCY0Q9"             # Tracking code, eg. "UA-111111111-1"
+titleCaseStyle          = "none" # fixes https://github.com/gohugoio/hugo/issues/12115
 
 # build options
 buildDrafts             = false # builds drafts
@@ -12,24 +11,36 @@ enableEmoji             = true # enables the use of emoji codes
 publishDir              = "sebastianlau"
 
 [markup]
-    [markup.goldmark]
+    [markup.goldmark] # markdown
         [markup.goldmark.renderer]
-            unsafe = true
+            unsafe      = true # allows HTML tags in markdown
+    [markup.highlight] # code highlighting
+        codeFences      = true
+        lineNos         = true
+        style           = "nord" # https://pygments.org/styles/
 
 [params]
     dateform            = "Mon Jan 02, 2006"
-    dateformfull        = "Mon Jan 2 2006 15:04:05 NZST"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 NZST" #unused
     favicon             = "/sam.ico"
     homepage            = "home"                        # What to call the home page link
+#Gallery
     galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    # maxWidth            = "400x" # unused
+    # maxHeight           = "x400" # unused
+    maxSize             = "600x400"
+    keepAspectRatio     = true
     clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Copyright 2018 Sebastian Lau.<p><a href='https://gohugo.io'>Hugo</a> with <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>.</p>"
-    fontFamily          = "Outfit"
-    fontWeightDefault   = "100"
-    # Separate font weights with ;
-    fontWeights         = "100;300"
-    # codeFamily          = ""
-
+    footerText          = "&copy; 2018 Sebastian Lau.<br>Built on <a href='https://gohugo.io'>Hugo</a> using <a href='https://github.com/victoriadrake/hugo-theme-sam'>Sam theme</a>."
+#Fonts
+    fontFamily          = "Didact Gothic"
+    # fontWeightDefault   = "100" (unused)
+    # fontWeights         = "100;300" # Separate font weights with ; (unused)
+    codeFamily          = "Sometype Mono"
+#Sections
+    # showTagsInLists     = false
+    displayHeader       = true  # displays post data (date, tags, word count) in <header> if true, in <main> if false
+    displayBottomMenu   = false # displays bottom menu in <footer> if true, in <main> if false (unused)
 # Metadata
     description         = "Thoughts, ideas and boredom."            # Max 160 characters show in search results
     twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
@@ -45,6 +56,18 @@ publishDir              = "sebastianlau"
 # [[params.mainMenu]]
 #     link = "/gallery"
 #     text = "gallery"
+
+# [[params.mainMenu]]
+#     link = "/tags/stories"
+#     text = "stories"
+
+# [[params.mainMenu]]
+#     link = "/tags/archive"
+#     text = "archive"
+
+[[params.mainMenu]]
+    link = "/extras"
+    text = "extras"
 
 [[params.mainMenu]]
     link = "/about"

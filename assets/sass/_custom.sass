@@ -1,0 +1,225 @@
+@use "sass:color"
+@use "_vars"
+@use "mixins"
+
+article
+    code
+        +side-tag
+        font-size: 0.9em
+        font-family: $code
+        padding: 0.1em
+        padding-left: 0.3em
+        border-radius: 3px
+        // border: 1px solid $links
+        border: none
+        background-color: $bg-color-mono
+    sup > code
+        padding: .25em
+        padding-left: .5em
+    hr
+        +centred-hr
+
+aside
+    p
+        margin: 0
+
+blockquote
+    border-left: 1px solid $links
+    margin-left: 1em
+    margin-bottom: 1em
+    // background-color: $dark-grey
+    p
+        margin: 0.5em 0
+
+footer
+    margin: 0 auto
+    padding: 6em 1em 0 0
+    @media screen and (max-width: 736px)
+        padding: 3em 0
+    p, p.footer-text
+        // font-size: 0.8em
+
+strong, b
+    // opacity: 1
+    font-weight: bold
+    text-shadow: 0px 1px color.adjust($white, $lightness: -50%)
+    // border-bottom: 1px double $links
+
+em, i
+    // +fake-italic
+    font-style: italic
+
+header > hr, nav > hr, .divider, .footnotes > hr
+    // opacity: 0.6
+    width: 60%
+
+cite
+    display: block
+
+q
+    display: inline
+    // +fake-italic
+    // font-style: italic
+
+p
+    display: block
+
+pre
+    code
+        background-color: inherit // note that the background colour is really ugly
+
+del
+    // color: vars.$color-pumpkin-orange
+    text-decoration: line-through
+    opacity: 0.6
+    &::before
+        content: "strike start"
+        display: none
+    &::after
+        content: "strike end"
+        display: none
+
+u
+    text-decoration-thickness: 1.25px
+
+.post-container
+    display: none
+//     padding: 1em
+//     background-color: #fff
+//     opacity: 1
+//     color: #000
+//     margin-bottom: 0.5em
+//     // border-left: 1px solid $border-color
+//     // border-right: 1px solid $border-color
+//     // border-top: 1px solid $border-color
+//     // border-width: 1px
+//     border-radius: 5px
+//     // border-color: $post-border-color
+//     // border-style: solid
+//     box-shadow: $post-bg-color 3px 3px
+//     // border-bottom-style: outset
+//     // border-bottom: 1px outset $border-color
+//     a
+//         color: #000
+//         border-bottom: solid #000
+//     a:hover
+//         border-bottom-color: $post-bg-color
+//     hr
+//         width: 50%
+//         margin: 0.5em 0
+//         color: #000
+//         align-self: center
+
+// .post-details
+    // margin-left: 2em
+    // & .tag-container
+        // margin: 0
+        // padding: 0.5em
+
+// nav.flex-container a
+    // display: inline
+    // opacity: 1
+
+// .nav-item
+    // display: flex
+    // a
+        // display: inline
+
+.archive-note
+    align-content: center
+    // width: 65%
+    // margin: 1rem auto 2rem
+    padding: 0
+    // margin: 0 0.5em 1em
+    p
+        // background-color: purple
+        text-align: left
+        background-color: color.adjust($dark-grey, $lightness: 25%)
+        font-size: 0.8em
+        // padding: 2rem
+        // margin: 2rem 1rem 2rem 1rem
+        padding: 0.75em 1.75em
+        margin: auto
+        // margin: 1rem
+        // border-radius: 3px
+        border-radius: 4px
+        // font-size: 1em
+        color: $archive-font-color
+        // display: block
+
+.archive-note-heading
+    +link-style
+    opacity: 1
+    font-variant: small-caps
+    // font-size: 1.05em
+    display: inline
+    vertical-align: text-bottom
+    h1
+        font-size: 1rem
+        margin: 0
+
+.date, .details
+    display: inline
+
+.description
+    padding-bottom: 1em
+    // +fake-italic
+
+.right-tag
+    // display: block
+    font-size: 0.8rem
+    font-style: italic
+
+.footnotes
+    opacity: 0.6
+    width: auto
+    margin: 1rem 4rem
+    font-size: 0.8rem
+    padding-top: 6rem
+    @media screen and (max-width: 1080px)
+        margin: 2rem
+    ol
+        li:hover, li:target
+            color: ivory
+            opacity: 1
+            // background-color: color.adjust($white, $lightness: -60%, $alpha: 0.005)
+            background-color: vars.$bg-color-mono
+            // border-radius: 4px
+        li::marker
+            color: $body-text
+
+.footnote-ref, .footnote-backref
+    border: none
+    &:hover
+        border-bottom: 2px solid $links-hover
+    &:focus
+        color: green
+    &:target
+        color: green
+
+.left-hr
+    +left-hr
+
+.long-hr
+    +skinny-hr
+    width: inherit
+    // margin: 1rem 16px 1rem
+
+.side-tag
+    +side-tag
+    // background-color: $dark-grey
+
+.left-tag
+    // +side-tag
+    // +small-caps
+
+.small-caps
+    +small-caps
+    font-size: 1.3rem
+
+.special-tag
+    font-size: 0.8rem
+    // font-style: italic
+
+.fake-italic
+    +fake-italic

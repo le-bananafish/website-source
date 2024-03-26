@@ -3,7 +3,8 @@ title: "2023 in Review"
 date: 2023-12-21T02:20:42+13:00
 showDate: true
 edit: true
-draft: true
+editDate: 2024-03-27T01:33:00+13:00
+draft: false
 tags: [
     "general", 
     # "project/new-horizons", 
@@ -20,51 +21,105 @@ tags: [
 
 \>> This post is super late.
 
-I set myself the lofty goal to "write" and work on my creative projects more this year and you can see from the dearth of posts (this is only my second post of the year<sup>4</sup>) that I have not succeeded. In my defence, I chose to do a postgraduate degree (honours). I was not mentally prepared for that endeavour.
+I set myself the lofty goal to "write" and work on my creative projects more this year and you can see from the dearth of posts (this is only the second one[^1]) that I have not succeeded. In my defence, I chose to do a postgraduate degree (honours).
 
-Having finished four and a half years of study in semester 1 last year, I took (worked) the second half of the year off and my brain fell out of the academic zone. And boy did I not expect how hard it was going to be to get back into it. I expected postgrad to be difficult and to have different expectations but what I was caught out by was how different the expectations were.
+I was not mentally prepared for that endeavour.
 
-<!-- What struck me as hard was not just the difficulty of postgrad, which I expected to some extent, but how different the expectations and requirements of an undergrad and postgrad were. -->
+Having finished four and a half years of study in semester 1 of 2022, I intended to take the second half of the year off but ended up working part-time and I fell out of the mindset of a student: the pressure of deadlines, the anxiety of rushing between classes, all of that faded away. And boy did I not expect how hard it was going to be to get back into it.
 
-The arts honours programme consisted of taking six courses as well as completing a research project over the whole year. I expected to read papers, I expected to have to direct what I was doing myself, but I didn't expect how much I had to direct myself &mdash; I kinda had free rein. I knew and was glad I could and had to choose my own topics (with approval) but it confounded me, annoyed me, 
+I expected postgrad to be hard, partly because it would be more demanding than undergrad, and partly because it would require more self motivation than I had. As there was a research component to my degree, I expected to read papers and to investigate topics, but I also thought there would be a lot of guidance along the way. My expectations were incorrect.
 
-Part of my honours was a research project spanning the whole year which required me to read a bunch of papers. I expected to read papers but I didn't expect how much I had to guide my own exploration &mdash; sincere gratitude to my supervisor who pushed me to see things I couldn't see. For most of my assignments (read: essays) I got to choose my own topic but I didn't expect that we weren't given a particular direction to take our topics into.
+I had a lot of freedom over the topics of my assignments; each one could have a different topic or I could reuse some topics provided I was building upon the work. This freedom was liberating in that so many options were now open to me and yet it was also terrifying in that everything was up to me.
 
-One critical lesson that my supervisor tried to hammer into us and which I didn't truly internalise until I had to truly put my head down and get to work is that _we really don't know how to write sometime or how it's going to turn out until we start_.
+There was no roadmap that guaranteed that at the end of the semester, I would have a well researched topic I had to write an essay on. So, there were many assignments I cobbled together at the last minute, sometimes submitting late, and often staying up till four or five in the morning the days before it was due, hoping I was writing something coherent.
 
-<!-- As they say, no matter how much you plan and account for, things are going to change and boy did they change. -->
+Many things didn't pan out the way I thought they would either. In semester 1, for the field methods course, I had to widen my topic because the language we were investigating used the *same word* for various different adverbs in English, e.g. *very*, *quite* and this wouldn't be enough for an essay. And in semester 2, I made the hard decision to pivot my research project topic since I wouldn't have any insights[^2] to contribute to my original topic.
 
-<!-- My original topic for the research project was going to be a comparison between the 's' sounds in Taiwanese Mandarin and Mainland Mandarin. Mandarin has three 's' sounds, the one in English _set_ /s/, one palatal /ɕ/, and one retroflex /ʂ/. In Taiwan, possibly due to influence from Hokkien (Taiwanese), the distinction between /s/ and /ʂ/ is generally perceived to be weak or lost. I wanted to see if it was truly correct. The research showed that generally yes Taiwanese people did not pronounce a strong distinction between the two sounds but that we did still tell the difference between them. My question was answered and the resulting essay was around two thousand words. I could've seen if this pattern was matched in other variants of Mandarin or in other Chinese "dialects" (Shanghainese, Sichuan, Cantonese, et al.) but it didn't feel like a big enough topic for my research project (10,000 words) so I had to pivot. -->
+But it wasn't all bad.
 
-<!-- My actual topic was on a pattern in a Native American language spoken in Oklahoma known as Kiowa. And it was big enough. It had a process that seemed to buck the trend cross-linguistically; _it appeared to do something that was not expected to happen based on data from across numerous languages_. The question was then how to account for it? And then what would it mean for the linguistic theory if we were to account for it? It was during this process where I discovered that I didn't truly understand a bunch of the papers I had been reading until I read it for the third time and it clicked with what I was trying to investigate. -->
+The experience taught me that I actually *do* have skills. This was a revelation to me. For one of my assignments, I retested the statistical analysis presented in a paper and also tested some of their assumptions about the data, implementing the tests using Python. Guess my degree *was* worth it. That was an assignment I was genuinely happy with.
 
-There was so many ways things didn't turn out how I expected them to turn out this year. After semester 1, I had to pivot my research project topic because my original topic really wasn't big enough to fit the ten thousand word requirement. Some of the papers I read for my research project, I had to read three times before I truly grasped what they meant and how they fit together and related to my topic. And so often, I would read papers that seemed interesting but actually weren't very relevant to what I was doing. There was also an elicitation<sup>1</sup> topic that I had to widen because the language we were probing only used one word for so many concepts (very, quite, etc).
+It was also a good year on the people and social front. I made friends and met new people. I got to know some of my coworkers better. And we finally found some new excs to take over the student club I'm a part of.
 
-The lesson itself didn't even hit me even though it was oft repeated to us in semester 1 until I heard something similar at a book launch<sup>2</sup> I went to this year. And in fact, I couldn't get myself out of not writing or working on my creative projects (after uni finished) until a book YouTuber I started watching finished writing a book she was working on and I was reminded that if I didn't write or work on these projects, no one else would.
+So even though I constantly said to anyone who asked that ***it was hell***, there was also a bright side.
 
-But did I regret this year? Interestingly not. If I could go back in time... I would obviously be more prepared for postgrad, perhaps do the early reading for one of the classes :eyes:, do a little bit of research beforehand into my interested topics, ... but strangely despite all the stress and extremely late (or early) nights, I would do it all again. I met a few interesting people this year, finally found new execs to take over the linguistic club at uni, and actually genuinely enjoyed what I discovered this year. However, I'm not sure academia is the right fit for me and so I likely won't be going further.
+## a revelation
 
-This year also showed me that I actually have skills. Over the course of my undergrad I felt pretty terribly that I either wasn't learning any actionable skills, was learning old information (CPUs are going to hit 5GHz soon!), or that we weren't being taught very well (figure out those steps we skipped to get to the solution in your own time). But I actually got to practice some programming and some statistics and proved to myself that I am competent. For one of my assignments, I retested the statistical analysis presented in a paper and also tested some of their assumptions about the data, writing the statistical tests as Python scripts that I then ran on the same data. Guess my degree _was_ worth it. I was and am pretty happy with myself.
+Throughout the entire year, my supervisor tried to hammer the idea into us that "*we won't know how to do something until we start doing it*" and that the only way to know is to practice, so he made us, *a lot*. However, I didn't truly internalise it until very late into the year.
 
-But enough about the slog that is uni, what about outside of uni?
+<!-- In fact, this revelation hit me more than once. -->
 
-I started reading again over the last few years but this year I finally found a particular genre that interests me. Early on in the year, I read _Before the Coffee Gets Cold_, a short Japanese collection of stories revolving around a café that can presumably take you back in time, and though I'm not the type for stories investigating relationship and familial dynamics, it was quite a moving set of stories. Later on in the year, I read _Ficciones_ by Jorge Luis Borges, a collection of strange and interesting stories with magical realistic and metaphysical themes. That was the book that truly sparked my interest. On a Spanish kick, I decided to read _The Dangers of Smoking in Bed_, a collection of "scary" stories by Mariana Enriquez that I would classify more as existential or implication in its horror rather than truly a scare. I also read a few of Claire Keegan's books: _Small Things Like These_ and _Foster_, and found them moving though I did not like their endings (sudden, and open). Conclusion: I think I like translated fiction (though Claire Keegan isn't translated).
+In October, I went to the book launch[^3] of someone I went to primary school with and her experience writing a novel echoed my supervisor's message and it finally clicked. The book launch itself was pretty interesting, and it was really inspiring to hear about her lifelong dream to be an author and her journey.
 
-You know how they say not to take drugs cause they get you hooked?
+I only understood the idea in practice when I literally started writing up the <u>ten thousand words</u> of my research project and I started to see how I was to structure it. It became clearer to me what I might need to explain, where certain topics might have to go, and what I might have to focus on or leave out. In fact, I was on a roll. I got to the point where it was largely done and just needed polishing. There was an area that I could've fleshed out and integrated more into the essay but ironically I had to force myself to stop editing and revising until the deadline because I had other essays to write. All in all, I am happy with how my research project turned out.
 
-Well, I've recently fallen back into the mechanical keyboard hobby. Originally, I got into the hobby because it was COVID and I was bored in lockdown and I'm not good with discretionary capital. But this time, I heard about the launch of a more mass producible version of an "endgame" keyboard and I got really interested because it's much more affordable<sup>3</sup>. I opened a keycap set that I bought three years ago and refused to open because ABS = rubbish (even though it cost me $$$) but OMG these keycaps are so good. Don't worry I haven't started spending... yet. But I'll tell you more at a later date.
+On a non-academic note, the idea only sunk in for my creative projects when a book YouTuber I watch finished writing a novel she was working on and I realised that if I don't work on my projects, no one will. The inspiration that was seeded by my school friend's book launch was converted into motivation by the YouTuber's progress. Unfortunately, this determination only prevailed for a few weeks before other obligations got in the way.
 
-<!-- \[Addendum: So I planned to post this before we left for Aussie or just before the year ended but that obviously didn't happen. On reflection, the flow of this post isn't the best (hence this insert) but I am happy with the current state (aka, cbf editing) and I can't procrastinate posting it anymore :eyes:.\] -->
+## reflection
 
-I feel like there could be more to say in this post but I can't think of anything off the top of my head so for now as always I'll just say: thank you for reading.
+Do I regret the year? On balance, no. If I could go back in time, I would obviously prepare myself more before the year started, definitely do my readings, and try to stay on track instead of letting each week pass by. Despite the constant stress of pending assignments and the sleep deprivation induced by extremely late (or early) nights, *I would do it again*. There were both highs and lows this year, and that's alright.
 
-~~and~~ Merry Holidays (and Happy New Year) !
+<!-- There were successes and high points in the year: I realised my abilities, I made friends, and I finally found new execs to take over the uni club I had been running. -->
 
-----
+As to further studies in academia, I've joked about going back for a masters if I can't figure out a career, and maybe even becoming a professor as a last resort, but the honest answer is that having experienced academia, I don't think it's the right fit for me (and I don't want to relive the pain).
 
-Notes
+But enough about uni, what else have I done?
 
-- <sup>1</sup>_Elicitation_: the collection of direct linguistic data through various techniques such as interviews, assigned tasks, and observation.
-- <sup>2</sup>: The book is _Backwaters_ by Emma Ling Sidnam. (disclaimer: I went to primary school with her but honestly it's pretty good.)
-- <sup>3</sup>: the Bauer Lite by Omnitype, if anyone's interested.
-- <sup>4</sup>: ~technically~ true but not true... (first in 2024).
+## books
+
+I read a surprising number of books this year: 16 in fact. Granted, many of them were quite short.
+
+The first two I read, at roughly the same time, were _Le petit prince_ but in English, and _Mr Salary_ by Sally Rooney. _Mr Salary_ is only the second work by Sally Rooney that I've read after _Normal People_, but I feel like it sets a trend. Her writing style is interesting but I don't like her endings, especially in _Normal People_; the characters' conflict seemed to be resolved towards the end but then the ending made the situation so open-ended and uncertain. _The Little Prince_ I read to see what the hype was; I get it now.
+
+Next I read _Before the Coffee Gets Cold_, a short Japanese collection of stories, actually a novel according to the blurb, revolving around a café where you can go back in time, and though relationships and familial dynamics are not my usual choice, the stories quite moving (*I cried*, okay?).
+
+This decent cast of books was then followed by a book I absolutely despise: _The Alchemist_ by Paulo Coelho. This book somehow manages to entirely disregard the old cliché, "*show, don't tell*," and not in a good way. For a book that is ostensibly inspiring and spiritual in nature, it was incredibly flat, not immersive, and is essentially entirely narrated; we are not left to infer the characters' thoughts and emotions or to imagine the events for ourselves, they are simply described to us.
+
+After that, I read _Mary Ventura and the Ninth Kingdom_, an early short story by Sylvia Plath that was a refreshing palate cleanser and gives me the courage to read some of her other works in the future.
+
+As a child, for some reason, even though I was interested, I never read _Skulduggery Pleasant_. I may have leafed through some of the books but I never actually read them. Well, for a period, my childhood longing seized me and I promptly devoured the first four books. With the intention to continue, I bought the next four books but early into the fifth book I got tired of the main character and stopped reading.
+
+The next thing I read was _Ficciones_ by Jorge Luis Borges, a collection of strange and interesting stories with magical realistic and metaphysical themes. They are thought-provoking, philosophical, conceptual, existential and confusing all at the same time. I strongly recommend it,
+
+Then I read _Three Japanese Short Stories_ by Akutagawa et al. and _Why I am Not Going to Buy a Computer_ by Wendell Berry. I bought Wendell Berry's essay on an impulse and to pre-emptively reject it by the title, but I found his arguments really thoughtful and well-reasoned. Akutagawa is a notable Japanese author and this tiny collection is the only book containing his work I could find here ~~in NZ~~ on Book Depository (before it closed :disappointed:).
+
+On a kick from _Ficciones_, the next Spanish work I read was _The Dangers of Smoking in Bed_, a collection of "scary" stories by Mariana Enriquez that I would classify more as existential or implication in its horror rather than truly a scare.
+
+Next I went on an Irish kick, reading _Small Things Like These_ and _Foster_, both by Claire Keegan. They were both moving stories and one was about a little known dark period of Ireland's history but again I didn't like their endings. Like Sally Rooney (who's also Irish :eyes:), the endings introduce a sense of uncertainty that I did not like.
+
+The last book I *finished* this year was _Crying in H Mart_, a memoir by Michelle Zauner of the band _Japanese Breakfast_ about the loss of her mother and the subsequent impact on her cultural identity. I am lucky enough to not have lost anyone important in my life, but as a diaspora Asian the book prompted some serious reflection on my own links to my cultural identity. It's *so good*.
+
+I think there's a couple trends to be found here.
+
+For the first time in a while, I can actually say what it is I like to read.
+
+I enjoy Japanese and Spanish fiction, and like Irish authors. Though Irish fiction is largely in English, I will to broadly label my preferred genre as *translated fiction*.
+
+## keyboards
+
+You know how people warn you not to take drugs because you can get addicted?
+
+Well, I recently fell back into the mechanical keyboard rabbit hole. My first foray into the hobby was during COVID when I was bored in lockdown and decided to dispense with my "discretionary capital". But this time, I heard about the imminent launch of a more mass producible version of an "endgame" keyboard[^4] and I got really caught up in the hype.
+
+*I ordered the keyboard.*
+
+In anticipation, I even opened up a keycap set I bought three years ago and refused to open because I didn't historically like the type of plastic they are made from, but *holy sh\*t* these keycaps are so good.
+
+An earlier me was going to tell you I haven't started spending again yet but as above that's a lie.
+
+I'll let you know how I find the keyboard and if it's *my* endgame board (spoiler: this is foreshadowing).
+
+## in closing
+
+As always there's probably more I could say but I **<u>need</u>** to post this so for now I'll just say:
+
+Thank you for reading, Merry Holidays, and Happy New Year !
+
+[^1]: This is basically a *[Ship of Theseus][1]* problem since I essentially rewrote the entire thing in March of 2024, so I'll let you decide if it counts.
+[^2]: Ten thousand words of insights, that is.
+[^3]: The book is [_Backwaters_][2] by Emma Ling Sidnam. (disclaimer: I went to primary school with her and I haven't finished reading it but honestly it's pretty good so far.)
+[^4]: the [Bauer Lite][3] by Omnitype, if anyone's interested.
+
+[1]: https://en.wikipedia.org/wiki/Ship_of_Theseus
+[2]: https://www.unitybooksauckland.co.nz/shop-new/p/backwaters-by-emma-ling-sidnam
+[3]: https://omnitype.com/pages/bauer-lite

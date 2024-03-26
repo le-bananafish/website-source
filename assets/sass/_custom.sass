@@ -1,3 +1,4 @@
+@use "sass:color"
 @use "_vars"
 @use "mixins"
 
@@ -41,7 +42,7 @@ footer
 strong, b
     // opacity: 1
     font-weight: bold
-    text-shadow: 0px 1px darken($white, 50%)
+    text-shadow: 0px 1px color.adjust($white, $lightness: -50%)
     // border-bottom: 1px double $links
 
 em, i
@@ -51,11 +52,6 @@ em, i
 header > hr, nav > hr, .divider, .footnotes > hr
     // opacity: 0.6
     width: 60%
-
-q, cite
-    // +fake-italic
-    // color: purple
-    // display: block
 
 cite
     display: block
@@ -68,7 +64,26 @@ q
 p
     display: block
 
+pre
+    code
+        background-color: inherit // note that the background colour is really ugly
+
+del
+    // color: vars.$color-pumpkin-orange
+    text-decoration: line-through
+    opacity: 0.6
+    &::before
+        content: "strike start"
+        display: none
+    &::after
+        content: "strike end"
+        display: none
+
+u
+    text-decoration-thickness: 1.25px
+
 .post-container
+    display: none
 //     padding: 1em
 //     background-color: #fff
 //     opacity: 1
@@ -119,7 +134,7 @@ p
     p
         // background-color: purple
         text-align: left
-        background-color: lighten($dark-grey, 25%)
+        background-color: color.adjust($dark-grey, $lightness: 25%)
         font-size: 0.8em
         // padding: 2rem
         // margin: 2rem 1rem 2rem 1rem
@@ -167,8 +182,9 @@ p
         li:hover, li:target
             color: ivory
             opacity: 1
-            // background-color: rgba(darken(gold, 15%), 1%)
-            background-color: rgba(darken($white, 60%), 0.5%)
+            // background-color: color.adjust($white, $lightness: -60%, $alpha: 0.005)
+            background-color: vars.$bg-color-mono
+            // border-radius: 4px
         li::marker
             color: $body-text
 

@@ -1,3 +1,4 @@
+@use "sass:color"
 @use "_vars"
 
 #splash
@@ -178,6 +179,7 @@ main
     // opacity: 0.4
     // background-color: lighten(black, 35%)
     background-color: transparentize($black, 0.75)
+    background-color: color.scale($black, $alpha: -75%)
     display: inline-block
     border-end-end-radius: inherit
     border-bottom-left-radius: inherit

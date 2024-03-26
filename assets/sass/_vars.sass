@@ -1,3 +1,5 @@
+@use "sass:color"
+    
 $white: #fff
 $black: #111
 $dark-grey: #39424E
@@ -7,8 +9,15 @@ $dark-grey: #39424E
 $body-size: 16px
 $body-text: $white
 
+// named colours
+$color-pumpkin-orange: #FF5733
+$color-dandy-green: #57d657 // lighten(forestgreen, 10%)
+$color-cadmium-orange: #F28C28
+$color-serika-gold: color.adjust(gold, $lightness: -5%)
+$color-code-grey: color.adjust($dark-grey, $lightness: 10%)
+
 // #ccc
-$links: darken($white, 20%)
+$links: color.adjust($white, $lightness: -20%)
 $links-hover: $white
 
 $code-block: #000004
@@ -22,8 +31,9 @@ $fake-italic-angle: -10deg
 $archive-font-color: rgba($black, 0.7)
 $custom-links: #ccc
 
-$accent-color-mono: darken(gold, 5%)
-$bg-color-mono: lighten($dark-grey, 10%)
+$accent-color-mono: $color-serika-gold
+$accent-color-underline: $color-serika-gold
+$bg-color-mono: $color-code-grey
 // this is #ccccccc with opacity x
 $post-border-color: rgba(204, 204, 204, 0.5)
 $post-bg-color: rgba(256, 256, 256, 0.3)

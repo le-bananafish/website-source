@@ -1,4 +1,13 @@
-# NOTICE
+# README
+
+## SET-UP
+
+This is ALL you need to set-up, no annoying `npm`:
+
+    brew install git hugo sass/sass/sass    # on macOS
+    choco install git hugo-extended sass    # on Windows
+
+## COPYRIGHT NOTICE
 
 The contents of this repository are the copyrighted work of their respective authors and are licensed **as follows**:
 

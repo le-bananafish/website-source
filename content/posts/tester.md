@@ -11,12 +11,12 @@ edit: true
 tags: [
     "archive", 
     "b", 
-    "c", 
+    "coffee", 
     "d", 
     "e", 
     "f", 
     "general", 
-    "h", 
+    "hobbies", 
     "i", 
     "j", 
     "k", 
@@ -34,7 +34,7 @@ tags: [
     "stories", 
     "travel", 
     "u", 
-    "v", 
+    "video-games", 
     "writing", 
     "x", 
     "year-in-review", 
@@ -70,10 +70,12 @@ This is a single-line quote `<q>`:
 This is a `<blockquote>`:
 
 <blockquote>
-    Whosoever is pure of heart and replete in honor shall be worth to comprehend this quote.
+    Whosoever is pure of heart and replete in honor shall be worthy to comprehend this quote.
     <cite>- P'tato Perlasson</cite>
     <!-- <footer>- P'tato Perlasson P'mme</footer> -->
 </blockquote>
+
+Note[^1] on quote above.
 
 This is a single-line markdown quote:
 
@@ -81,7 +83,7 @@ This is a single-line markdown quote:
 
 This is a multi-line markdown quote:
 
-> Hello and welcome to the Republic of Idiots, my name is Hershey and I am your tour guide for the day. You'll have a different guide each day and we each specialise in different areas of the city.
+> Hello and welcome to the Republic of Idiots, my name is Hershey[^2] and I am your tour guide for the day. You'll have a different guide each day and we each specialise in different areas of the city.
 
 This is a markdown quote with links:
 
@@ -204,10 +206,15 @@ Nulla venenatis neque in egestas dignissim. Cras sodales a urna tincidunt imperd
 
 Phasellus vulputate, augue non pulvinar gravida, nisl augue ultrices turpis, vel mattis sapien dolor sit amet ex. Nullam feugiat mi at sodales facilisis. Aliquam at feugiat urna, in porttitor lacus. Vestibulum sed mi ut nisi sagittis egestas. Suspendisse ullamcorper euismod scelerisque. Fusce sit amet tellus eros. Pellentesque interdum id nisl in condimentum. Phasellus tincidunt, ligula quis consectetur ultrices, enim ipsum porta odio, in dapibus orci ex sit amet quam. Phasellus ac sodales neque. Etiam condimentum faucibus lorem, a mattis nisi vulputate nec.
 
-Vivamus id sapien sit amet risus egestas dapibus. Praesent volutpat lobortis quam, ac tempus neque fringilla quis. Ut scelerisque eros id aliquam semper. Nullam vehicula euismod libero. In congue sem eget urna vehicula, eget cursus nisl ultricies. Aliquam ut quam pellentesque, mattis urna eu, commodo risus. Phasellus laoreet purus posuere, sagittis massa sed, feugiat metus. Morbi in diam nec quam accumsan lobortis at quis ipsum. In hac habitasse platea dictumst. Suspendisse ac volutpat sapien. Praesent placerat risus id metus cursus, id hendrerit nunc blandit. Aliquam laoreet libero eget risus vestibulum, vitae congue lorem tempus.
+Vivamus id sapien sit amet risus egestas dapibus. Praesent volutpat lobortis quam, ac tempus neque fringilla quis. Ut scelerisque eros id aliquam semper. Nullam vehicula euismod libero. In congue sem eget urna vehicula, eget cursus[^3] nisl ultricies. Aliquam ut quam pellentesque, mattis urna eu, commodo risus. Phasellus laoreet purus posuere, sagittis massa sed, feugiat metus. Morbi in diam nec quam accumsan lobortis at quis ipsum. In hac habitasse platea dictumst. Suspendisse ac volutpat sapien. Praesent placerat risus id metus cursus, id hendrerit nunc blandit. Aliquam laoreet libero eget risus vestibulum, vitae congue lorem tempus.
 
 Fusce id risus ornare, lobortis orci ac, convallis nisl. Duis lobortis mauris sit amet magna condimentum, at posuere metus aliquet. Aliquam aliquet quis sapien id mattis. Morbi id gravida leo, ut faucibus ex. Suspendisse consectetur lorem quis leo venenatis porta. Quisque vitae diam cursus, pretium ante vel, porta orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
 
-Nullam pellentesque diam ac nibh varius hendrerit sed nec risus. Aenean odio eros, mollis in nisl id, fringilla maximus magna. Aliquam erat volutpat. Mauris ac facilisis orci. Aenean vel neque egestas ante bibendum tristique. Vestibulum sit amet odio ut velit ornare suscipit. Donec id magna varius, pulvinar nisl in, sodales nunc. Phasellus lacinia est arcu, a maximus ex laoreet eget. Sed id sem et dolor gravida lobortis et in libero. Phasellus maximus nibh et facilisis placerat. Integer vehicula quam viverra velit ornare, feugiat elementum odio ullamcorper. Praesent mollis facilisis nibh, at tempus mauris dignissim eu. Donec cursus ornare orci id posuere. Curabitur id metus nulla. Phasellus id suscipit erat, eu mattis augue. Mauris ultricies ex vel lorem fermentum, id ullamcorper magna fermentum.
+Nullam pellentesque diam ac nibh varius hendrerit sed nec risus. Aenean odio eros, mollis in nisl id, fringilla maximus magna. Aliquam erat volutpat. Mauris ac facilisis orci. Aenean vel neque egestas ante bibendum tristique. Vestibulum sit amet odio ut velit ornare suscipit. Donec id magna varius, pulvinar nisl in, sodales nunc. Phasellus lacinia est arcu, a maximus[^4] ex laoreet eget. Sed id sem et dolor gravida lobortis et in libero. Phasellus maximus nibh et facilisis placerat. Integer vehicula quam viverra velit ornare, feugiat elementum odio ullamcorper. Praesent mollis facilisis nibh, at tempus mauris dignissim eu. Donec cursus ornare orci id posuere. Curabitur id metus nulla. Phasellus id suscipit erat, eu mattis augue. Mauris ultricies ex vel lorem fermentum, id ullamcorper magna fermentum.
 
 Fusce bibendum purus quam, eu rhoncus enim placerat a. Nulla finibus sed dolor et lacinia. Fusce nec est feugiat, lobortis ligula et, fringilla lorem. Pellentesque pulvinar sem erat, vitae cursus libero.
+
+[^1]: Are you worthy?
+[^2]: The Republic of Idiots Tourism Board would like to clarify that no employee by the name of Hershey is currently, has ever, nor shall be employed by us.
+[^3]: I think this word is real but I'm not sure.
+[^4]: This one's a real word, how cool!

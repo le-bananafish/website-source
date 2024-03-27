@@ -7,7 +7,7 @@ showDescription: false
 edit: false
 archive: false
 archiveNote: ""
-draft: true
+draft: false
 tags: [
     "rant-and-ramble", 
     "site/update", 

@@ -1,4 +1,4 @@
-@use "_vars"
+@use "vars"
 
 =skinny-hr
     margin: 1rem 0
@@ -19,29 +19,33 @@
 =ease($time)
     transition: $time ease
 
+// the colour seems a bit contradictory here
 =link-style
-    color: $links
+    // color: $links
+    color: vars.$links-hover
     text-decoration: none
-    border-bottom: 2px solid $links
-    +ease(0.5s)
+    border-bottom: 2px solid vars.$links
+    // +ease(0.5s)
     &:hover
-        color: $links-hover
+        // color: $links-hover
+        color: vars.$links
+        border-bottom: 1.8px solid
         // font-style: none
     &:active
-        color: $links
+        color: vars.$links
 
 =fake-italic
-    -webkit-transform: skewX($fake-italic-angle)
-    -moz-transform: skewX($fake-italic-angle)
-     -ms-transform: skewX($fake-italic-angle)
-      -o-transform: skewX($fake-italic-angle)
-         transform: skewX($fake-italic-angle)
+    -webkit-transform: skewX(vars.$fake-italic-angle)
+    -moz-transform: skewX(vars.$fake-italic-angle)
+     -ms-transform: skewX(vars.$fake-italic-angle)
+      -o-transform: skewX(vars.$fake-italic-angle)
+         transform: skewX(vars.$fake-italic-angle)
 
 =side-tag
-    color: $accent-color-mono
+    color: vars.$accent-color-mono
 
 =small-caps
-    font-variant: small-caps
+    font-variant: all-small-caps
 
 =link-style-proper
     text-decoration: underline

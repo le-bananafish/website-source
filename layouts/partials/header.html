@@ -7,8 +7,12 @@
     <span class="details">
         {{ .WordCount }} words
     </span>
-    {{ with .Params.editDate }}
-    <span class="date special-tag">(updated {{ . | time.Format "Jan 02, 2006" }})</span>
+    {{ $edited := .Params.edit }}
+    {{ $editdate := .Params.editDate }}
+    {{ with $edited }}
+        {{ with $editdate }}
+        <span class="date special-tag">(updated {{ $editdate | time.Format "Jan 02, 2006" }})</span>
+        {{ end }}
     {{ end }}
     <div class="tag-container">
         {{ range $term := .Params.tags }}

@@ -2,14 +2,14 @@
 <span class="left-tag">[archived]</span>
 <!-- <span class="right-tag">(archived)</span> -->
 {{ end }}
-{{ (or .Title .LinkTitle) | markdownify}}
+<span class="text">{{ (or .Title .LinkTitle) | markdownify}}</span>
 {{ if .Params.edit }}
 <!-- <span class="side-tag">[edit]</span> -->
 {{ end }}
-{{ if .Params.editDate }}
+{{ if .Params.edit }}
 <span class="right-tag">(edited)</span>
 {{ end }}
 {{ if .Params.draft }}
 <!-- <span class="side-tag">[draft]</span> -->
-<span class="side-tag">(draft)</span>
+<span class="side-tag draft-tag">(draft)</span>
 {{ end }}

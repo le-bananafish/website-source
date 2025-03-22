@@ -13,15 +13,20 @@
         {{ $pages = sort .Data.Pages "Date" "desc"}}
         <!-- <p>dates</p> -->
     {{ end }}
+    {{ if (ne .Title "Tags") }} <!-- as long as title is not tags, we're fine with it -->
+    <ul class="article-list">
+    {{ else }}
     <ul>
+    {{ end }}
         {{ range $pages }}
         <li>
-            {{ if .Params.showDate }}
-            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --
-            {{ end }}
             <a href="{{.RelPermalink}}">
                 {{ partial "advanced_titles.html" .}}
             </a>
+            {{ if .Params.showDate }}
+            <span class="divider">{{ .Site.Params.postdivider | safeHTML }}</span>
+            <span class="date">{{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}}</span>
+            {{ end }}
             <!-- <p>{{ . }}</p> -->
         </li>
         {{ end }}

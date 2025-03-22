@@ -4,8 +4,7 @@ date: 2021-02-11T15:05:10+13:00
 showDate: true
 draft: false
 tags: [
-    "general", 
-    "rant-and-ramble", 
+    "ramblings", 
 ]
 ---
 

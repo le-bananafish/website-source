@@ -4,11 +4,9 @@ date: 2022-01-29T02:25:16+13:00
 showDate: true
 draft: false
 tags: [
-    "general", 
     "new-year-thoughts", 
     "reflections", 
-    "site/update", 
-    "writing", 
+    "updates", 
     "year-in-review",
     # "review", 
 ]

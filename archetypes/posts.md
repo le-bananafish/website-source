@@ -11,20 +11,37 @@ archiveNote: ""
 draft: true
 tags: [
     # "archive", 
-    # "coffee", 
-    # "general", 
-    # "hobbies", 
-    # "mechanical-keyboards", 
+    # "drafts", 
+    # "hobby/cinema", 
+    # "hobby/coffee", 
+    # "hobby/fountain-pens", 
+    # "hobby/keyboards", 
+    # "hobby/music", 
+    # "hobby/video-games", 
+    # "horizons", 
     # "new-year-thoughts", 
-    # "project/new-horizons", 
+    # "project/harmony", 
+    # "project/horizons", 
+    # "project/indigo", 
+    # "project/panteras", 
     # "projects", 
-    # "rant-and-ramble", 
+    # "ramblings", 
     # "reflections", 
     # "review", 
     # "site/update", 
+    # "snippets", 
     # "stories", 
-    # "video-games", 
-    # "writing", 
+    # "updates", 
+    # "worlds-gate", 
     # "year-in-review", 
 ]
+aliases: [ "", ]
+projects: [
+    "harmony", 
+    "horizons", 
+    "indigo", 
+    "panteras", 
+    "worlds-gate", 
+]
+series: [ "", ]
 ---

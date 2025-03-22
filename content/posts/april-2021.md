@@ -4,9 +4,9 @@ date: 2021-04-05T01:48:57+12:00
 showDate: true
 draft: false
 tags: [
-    "general", 
-    "rant-and-ramble", 
+    "ramblings", 
     "site/update", 
+    "updates",
 ]
 aliases:
     # - /posts/april-2021

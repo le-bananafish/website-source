@@ -4,9 +4,7 @@ date: 2021-03-17T12:31:50+13:00
 showDate: true
 draft: false
 tags: [
-    "general", 
-    "rant-and-ramble", 
-    "writing", 
+    "ramblings", 
 ]
 ---
 

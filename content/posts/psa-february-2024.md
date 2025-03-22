@@ -4,17 +4,17 @@ date: 2024-02-13T04:31:48+13:00
 showDate: true
 draft: false
 tags: [
-    # "general", 
     # "new-year-thoughts", 
     # "project/new-horizons", 
     # "projects", 
-    # "rant-and-ramble", 
+    # "ramblings", 
     # "reflections", 
     # "review", 
-    "site/update", 
+    # "site/update", 
     # "stories", 
     # "writing", 
     # "year-in-review", 
+    "updates", 
 ]
 ---
 

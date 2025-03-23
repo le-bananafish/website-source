@@ -17,7 +17,10 @@ The contents of this repository are the copyrighted work of their respective aut
 
 - All post content and all media files, including but not limited to documents, images, sound files and video files, are &copy; 2018 Sebastian Lau. *All Rights Reserved.*
 
-- The fonts Didact Gothic and Source Code Pro are licensed under the SIL Open Font License 1.1. Didact Gothic is the work of Daniel Johnson (&copy;) and Cyreal, and Source Code Pro is the work of Paul D. Hunt (&copy; Adobe).
+- The following fonts are licensed under the SIL Open Font License 1.1:
+  - Didact Gothic is the work of Daniel Johnson (&copy;) and Cyreal
+  - Source Code Pro is the work of Paul D. Hunt (&copy; Adobe)
+  - Sometype Mono is the work of Ryoichi Tsunekawa (&copy; Sometype Mono Project Authors).
 
 - All other content or code used under license or fair use are the property of their respective authors.
 
@@ -41,7 +44,10 @@ A [copy] of the Apache License 2.0 is provided with this repository.
 A [copy][OFL] of the SIL Open Font License 1.1 is provided with this repository.
 
     Copyright (c) 2009, 2010, 2011 Daniel Johnson (<il.basso.buffo@gmail.com>). (Didact Gothic)
+
     Copyright 2010, 2012 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. All Rights Reserved. Source is a trademark of Adobe Systems Incorporated in the United States and/or other countries. (Source Code Pro)
+
+    Copyright 2018 The Sometype Mono Project Authors (https://github.com/dharmatype/Sometype-Mono) (Sometype Mono)
 
     This Font Software is licensed under the SIL Open Font License, Version 1.1.
     This license is copied below, and is also available with a FAQ at:

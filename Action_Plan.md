@@ -2,6 +2,18 @@
 
 ## Roadmap
 
+> As at Monday, 24 March, 2025 -- 02:50
+
+- [ ] rewrite SASS stylesheets with better defaults and structure
+  - [ ] unify default styles for all HTML elements
+  - [ ] unify theme styles
+  - [ ] unify custom styles
+
+"known issues"
+
+- replacing custom page fields `.edit` and `.editdate` with `.lastmod` results in tags containing modified posts also bearing the `(edited)` tag
+  - possible fixes: isolate page layout, post list layout, tag list layout
+
 > As at Tuesday 26 March, 2024 -- 00:59 [am]
 
 "`[stable]`" features

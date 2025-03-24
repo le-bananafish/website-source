@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: 
 showDate: true
 description: ""
 showDescription: false
@@ -37,11 +38,11 @@ tags: [
 ]
 aliases: [ "", ]
 projects: [
-    "harmony", 
-    "horizons", 
-    "indigo", 
-    "panteras", 
-    "worlds-gate", 
+    # "harmony", 
+    # "horizons", 
+    # "indigo", 
+    # "panteras", 
+    # "worlds-gate", 
 ]
 series: [ "", ]
 ---

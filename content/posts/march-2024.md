@@ -9,8 +9,9 @@ archive: false
 archiveNote: ""
 draft: false
 tags: [
-    "rant-and-ramble", 
+    "ramblings", 
     "site/update", 
+    "updates", 
     ]
 ---
 

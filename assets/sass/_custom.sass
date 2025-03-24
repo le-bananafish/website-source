@@ -4,27 +4,27 @@
 
 article
     code
-        +side-tag
+        +mixins.side-tag
         font-size: 0.9em
-        font-family: $code
+        font-family: vars.$code
         padding: 0.1em
         padding-left: 0.3em
         border-radius: 3px
         // border: 1px solid $links
         border: none
-        background-color: $bg-color-mono
+        background-color: vars.$bg-color-mono
     sup > code
         padding: .25em
         padding-left: .5em
     hr
-        +centred-hr
+        +mixins.centred-hr
 
 aside
     p
         margin: 0
 
 blockquote
-    border-left: 1px solid $links
+    border-left: 1px solid vars.$links
     margin-left: 1em
     margin-bottom: 1em
     // background-color: $dark-grey
@@ -42,7 +42,7 @@ footer
 strong, b
     // opacity: 1
     font-weight: bold
-    text-shadow: 0px 1px color.adjust($white, $lightness: -50%)
+    text-shadow: 0px 1px color.adjust(vars.$white, $lightness: -50%)
     // border-bottom: 1px double $links
 
 em, i
@@ -134,7 +134,7 @@ u
     p
         // background-color: purple
         text-align: left
-        background-color: color.adjust($dark-grey, $lightness: 25%)
+        background-color: color.adjust(vars.$dark-grey, $lightness: 25%)
         font-size: 0.8em
         // padding: 2rem
         // margin: 2rem 1rem 2rem 1rem
@@ -144,11 +144,11 @@ u
         // border-radius: 3px
         border-radius: 4px
         // font-size: 1em
-        color: $archive-font-color
+        color: vars.$archive-font-color
         // display: block
 
 .archive-note-heading
-    +link-style
+    +mixins.link-style
     opacity: 1
     font-variant: small-caps
     // font-size: 1.05em
@@ -186,35 +186,35 @@ u
             background-color: vars.$bg-color-mono
             // border-radius: 4px
         li::marker
-            color: $body-text
+            color: vars.$body-text
 
 .footnote-ref, .footnote-backref
     border: none
     &:hover
-        border-bottom: 2px solid $links-hover
+        border-bottom: 2px solid vars.$links-hover
     &:focus
         color: green
     &:target
         color: green
 
 .left-hr
-    +left-hr
+    +mixins.left-hr
 
 .long-hr
-    +skinny-hr
+    +mixins.skinny-hr
     width: inherit
     // margin: 1rem 16px 1rem
 
 .side-tag
-    +side-tag
+    +mixins.side-tag
     // background-color: $dark-grey
 
 .left-tag
     // +side-tag
-    // +small-caps
+    +mixins.small-caps
 
 .small-caps
-    +small-caps
+    +mixins.small-caps
     font-size: 1.3rem
 
 .special-tag
@@ -222,4 +222,4 @@ u
     // font-style: italic
 
 .fake-italic
-    +fake-italic
+    +mixins.fake-italic

@@ -4,7 +4,6 @@ date: 2021-01-17T00:30:30+13:00
 showDate: true
 draft: false
 tags: [
-    "general", 
     "new-year-thoughts", 
     "reflections", 
     "year-in-review",

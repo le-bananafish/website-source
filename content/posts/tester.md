@@ -1,6 +1,7 @@
 ---
 title: "Tester"
-date: 2021-12-01T02:13:35+13:00
+# date: 2021-12-01T02:13:35+13:00
+date: 2000-01-01T02:13:35+13:00
 showDate: true
 description: "A tester article with a very long description that doesn't describe anything useful but will it overflow or not?"
 showDescription: true
@@ -10,35 +11,23 @@ draft: true
 edit: true
 tags: [
     "archive", 
-    "b", 
-    "coffee", 
-    "d", 
-    "e", 
-    "f", 
-    "general", 
-    "hobbies", 
-    "i", 
-    "j", 
-    "k", 
-    "l", 
-    "mechanical-keyboards", 
+    "drafts", 
+    # "horizons", 
     "new-year-thoughts", 
-    "o", 
-    "project/new-horizons", 
+    # "project/harmony", 
+    "project/horizons", 
+    "project/indigo", 
+    # "project/panteras", 
     "projects", 
-    "q", 
-    "rant-and-ramble", 
+    "ramblings", 
     "reflections", 
     "review", 
-    "site/update",
+    "site/update", 
+    "snippets", 
     "stories", 
-    "travel", 
-    "u", 
-    "video-games", 
-    "writing", 
-    "x", 
+    "updates", 
+    # "worlds-gate", 
     "year-in-review", 
-    "z", 
 ]
 ---
 
@@ -200,7 +189,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem ex, elementum
 
 This is a test image:
 
+![potato](/gallery/images/Adobe_Post_20180927_144352.jpg)
+
 ![here](/gallery/images/Screenshot_20180907-134147.jpg)
+
+<img src="/gallery/images/Adobe_Post_20180927_144352.jpg"/>
 
 Nulla venenatis neque in egestas dignissim. Cras sodales a urna tincidunt imperdiet. Curabitur porttitor libero ex, sit amet ultricies ipsum placerat in. Aenean mattis viverra ipsum, ut pellentesque turpis dignissim et. In arcu neque, posuere in consequat id, tincidunt quis lectus. Cras eu pretium quam, sed suscipit orci. Vivamus id sem elementum, condimentum dolor non, commodo velit. Quisque elementum feugiat ante, quis ultricies felis tincidunt eu. Ut vitae sem non neque sollicitudin tincidunt eget vitae risus. Praesent volutpat pulvinar tortor a consectetur. Phasellus maximus condimentum elit vitae dictum. In id leo viverra, interdum magna ut, cursus nunc. Etiam condimentum risus tempor magna efficitur auctor. Mauris et fringilla mi, vitae ultrices nibh.
 

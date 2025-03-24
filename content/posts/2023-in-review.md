@@ -6,14 +6,14 @@ edit: true
 editDate: 2024-03-27T01:33:00+13:00
 draft: false
 tags: [
-    "general", 
     # "project/new-horizons", 
     # "projects", 
-    # "rant-and-ramble", 
+    # "ramblings", 
     "reflections", 
     # "review", 
     # "site/update", 
     # "stories", 
+    "updates", 
     # "writing", 
     "year-in-review",
 ]

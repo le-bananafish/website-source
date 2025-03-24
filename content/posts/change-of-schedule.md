@@ -3,7 +3,9 @@ title: "Change of Schedule"
 date: 2021-01-29T16:08:21+13:00
 showDate: true
 draft: false
-tags: ["general", "site/update", ]
+tags: [
+    "updates"
+]
 ---
 
 # No more weekly posts

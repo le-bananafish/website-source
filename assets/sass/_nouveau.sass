@@ -1,0 +1,17 @@
+@use "sass:color"
+@use "vars"
+
+.article-list
+    padding-left: 0
+    & li
+        list-style-type: "—"
+        padding-left: .8rem
+        // list-style-position: inside
+        // text-align: right
+        & .date
+            color: color.adjust(vars.$body-text, $lightness: -40%)
+            font-variant-caps: all-small-caps
+        & .text
+            font-style: italic
+    &li::before
+        content: "-"

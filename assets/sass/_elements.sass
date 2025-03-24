@@ -1,5 +1,5 @@
 @use "sass:color"
-@use "_vars"
+@use "vars"
 
 #splash
     // addition
@@ -35,9 +35,9 @@
 main
     width: 100%
     // line-height: 2em
-    line-height: $line-height
+    line-height: vars.$line-height
     letter-spacing: 2px
-    opacity: $opacity
+    opacity: vars.$opacity
     div
         width: 100%
         height: 100%
@@ -47,7 +47,7 @@ main
         // text-align: left
     & .anchor-link > a
         border-bottom: none
-        color: $body-text
+        color: vars.$body-text
         &:hover > .pilcrow
             display: inline
     & span.pilcrow
@@ -71,19 +71,19 @@ main
         border-radius: 3px
         padding: 1rem
         overflow-x: auto
-        background-color: $code-block
+        background-color: vars.$code-block
         width: 100%
         margin-bottom: 1em
         // addition
-        font-family: $code
+        font-family: vars.$code
     & pre > code
         border: none
     & code
         font-size: 0.9rem
-        font-family: $code
+        font-family: vars.$code
         padding: 0.1rem
         border-radius: 3px
-        border: 1px solid $links
+        border: 1px solid vars.$links
     & img
         width: 100%
         max-width: 100%
@@ -93,7 +93,7 @@ main
     & blockquote
         // background-color: $links
         // color: $dark-grey
-        color: $links
+        color: vars.$links
         // padding: 2rem
         padding: 0 0.5em 0 1em // top right bottom left
         // margin: 2rem 1rem 2rem 1rem
@@ -117,7 +117,7 @@ main
         td, th
             padding: 2px 5px
             text-align: center
-            border: 1px solid $links
+            border: 1px solid vars.$links
     & li
         line-height: 2
         padding-left: 0.4rem
@@ -136,9 +136,9 @@ main
             border: 0
         & .gist-meta
             background-color: transparent
-            color: $body-text
+            color: vars.$body-text
             & a
-                color: $body-text
+                color: vars.$body-text
 
 .tag
     padding: 0.25em 0em
@@ -178,14 +178,14 @@ main
 .grid > div > .details
     // opacity: 0.4
     // background-color: lighten(black, 35%)
-    background-color: transparentize($black, 0.75)
-    background-color: color.scale($black, $alpha: -75%)
+    // background-color: transparentize($black, 0.75)
+    background-color: color.scale(vars.$black, $alpha: -75%)
     display: inline-block
     border-end-end-radius: inherit
     border-bottom-left-radius: inherit
     // border-radius: inherit
     p
-        color: $white
+        color: vars.$white
         opacity: 1
         padding-left: 0.5rem
         margin: 0

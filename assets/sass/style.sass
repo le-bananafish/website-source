@@ -1,8 +1,15 @@
-$font: {{ .Site.Params.fontFamily | default "Didact Gothic"}}, sans serif
-$code: {{ .Site.Params.codeFamily | default "Source Code Pro"}}, monospace
+// $font: {{ .Site.Params.fontFamily | default "Didact Gothic"}}, sans serif
+// $font: "Didact Gothic", sans serif
 
-@import "vars"
-@import "mixins"
+// $code: {{ .Site.Params.codeFamily | default "Source Code Pro"}}, monospace
+// $code: "Source Code Pro", monospace
+
+// @use 'fonts'
+@use "vars"
+@use "mixins"
+@use "elements"
+@use "custom"
+@use "nouveau"
 
 *
     margin: 0
@@ -11,24 +18,24 @@ $code: {{ .Site.Params.codeFamily | default "Source Code Pro"}}, monospace
     box-sizing: border-box
 
 html
-    background-color: $dark-grey
+    background-color: vars.$dark-grey
     // font-family: $font
     font-size: 16px
 
 body
-    font-size: $body-size
-    font-family: $font
-    color: $body-text
+    font-size: vars.$body-size
+    font-family: vars.$font
+    color: vars.$body-text
     // line-height: 2rem
-    line-height: $line-height
+    line-height: vars.$line-height
     // letter-spacing: 1.5px
-    letter-spacing: $letter-spacing
+    letter-spacing: vars.$letter-spacing
     text-shadow: none
     display: flex
     flex-direction: column
     justify-content: space-between
     align-items: center
-    opacity: $opacity
+    opacity: vars.$opacity
 
 header
     // padding: 6em 1em 1em 0
@@ -56,7 +63,7 @@ h1,h2,h3
     // font-weight: normal
 
 h3, h4, h5, h6
-    +link-style-proper
+    +mixins.link-style-proper
     width: fit-content
     opacity: 0.8
 
@@ -84,10 +91,10 @@ p
     margin-bottom: 1rem
 
 a
-    +link-style
+    +mixins.link-style
 
 hr
-    +skinny-hr
+    +mixins.skinny-hr
     opacity: 0.3
 
 nav
@@ -154,12 +161,9 @@ nav
         // border-bottom: none
         // display: contents
     nav > p > a
-        +link-style
+        +mixins.link-style
     .footer-text > a
         border-bottom: none
-
-@import "elements"
-@import "custom"
 
 // Helpers
 
